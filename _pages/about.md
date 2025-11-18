@@ -6,4 +6,4 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Ph.D in accounting. Welcome to my personal page!
+I am a Ph.D in accounting. Welcome to my personal homepage!
