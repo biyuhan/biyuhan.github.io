@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Qiang Guo's Homepage"
-description              : "Qiang Guo (郭强), a PhD student from University of Hong Kong"
+description              : #"Qiang Guo (郭强), 郑州大学计算机与人工智能学院初聘副教授"
 repository               : "ieqiangguo/ieqiangguo.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Qiang Guo (郭强),"
+  name             : "Qiang Guo    郭强"
   avatar           : "images/bio.jpg"
   bio              : "Zhengzhou University"
   location         : "Zhengzhou, Henan, China"
