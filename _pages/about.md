@@ -281,7 +281,7 @@ I look forward to collaborating in the field of Recommendation and Graph Learnin
 
 I am also seeking self-motivated collaborators.
 
-Feel free to contact me via <a href="mailto:jinfeng@connect.hku.hk">Email</a> or <a href="https://Jinfeng-Xu.github.io/images/WeChat.jpeg">WeChat</a>. 
+Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="https://Jinfeng-Xu.github.io/images/WeChat.jpeg">WeChat</a>. 
 
 <!-- 📄 You can download my CV <a href="assets/徐锦峰-CV.pdf" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>.-->
 
@@ -323,12 +323,14 @@ scrollbar-color: #2c3e50 #e9ecef;
 </style>
 
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-<li><em>2026.05:</em> 📚️ I serve as a reviewer for <strong>International Journal of Human-Computer Interaction (HIHC)</strong>. </li>
-<li><em>2026.05:</em> 🎉 One collaborative paper has been accepted by <strong>ICML 2026</strong>. Congratulations to <strong>Jian Chen</strong>! </li>  
-<li><em>2026.04:</em> 📚️ I serve as a reviewer for <strong>IEEE Transactions on Computational Social System (TCSS)</strong>. </li>
-<li><em>2026.04:</em> 🎉 Two collaborative papers have been accepted by <strong>ACL 2026 (main)</strong>. Congratulations to <strong>Jinze Li</strong> and <strong>Wenhao Yuan</strong>! </li>
-<li><em>2026.04:</em> 🎉 One paper on mutlimodal recommendation has been accepted by <strong>SIGIR 2026</strong>. </li>
-<li><em>2026.04:</em> 🎉 One conference extension paper on mutlimodal recommendation has been accepted by <strong>ACM Transactions on Recommender Systems (TORS)</strong>. </li>
+<li><em>2025.05:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Expert Systems with Applications (ESWA)</strong>. </li>
+<li><em>2025.07:</em> 🎉 One collaborative paper has been accepted by <strong>ACM MM 2025</strong>. Congratulations to <strong>Haichuan Fang</strong>! </li>
+<li><em>2025.05:</em> 🎉 One collaborative paper has been accepted by <strong>Knowledge-Based Systems (KBS)</strong>. Congratulations to <strong>Yiqiang Mao</strong>! </li>
+<li><em>2025.03:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Information Processing & Management (IPM)</strong>. </li>  
+<li><em>2024.12:</em> 🎉 One collaborative paper (co-corresponding author) has been accepted by <strong>IEEE Transactions on Industrial Informatics (TII)</strong>. Congratulations to <strong>Yiqiang Mao</strong>! </li>
+
+<--!
+ <li><em>2026.04:</em> 🎉 One conference extension paper on mutlimodal recommendation has been accepted by <strong>ACM Transactions on Recommender Systems (TORS)</strong>. </li>
 <li><em>2026.03:</em> 🎉 One paper supervised by me as the corresponding author has been accepted by <strong>CVPR 2026 (findings)</strong>. Congratulations to <strong>Ge Wang</strong>! </li>
 <li><em>2026.03:</em> 📚️ I serve as a reviewer for <strong>Neural Networks (NEUNET)</strong>. </li>
 <li><em>2026.03:</em> 📚️ I serve as a reviewer for <strong>Expert Systems With Applications (ESWA)</strong>. </li>
@@ -358,7 +360,7 @@ scrollbar-color: #2c3e50 #e9ecef;
 <li><em>2025.10:</em> 🌐 My new personal academic homepage is now online.</li>
 <li><em>2023.09-2025.10:</em> 🎈 I have published more than 10 papers in top-tier conferences and journals as the first author, including 1 KDD, 2 SIGIR, 1 ACM MM, 1 RecSys (Spotlight Oral), 3 CIKM, 1 AAAI, 1 ICASSP, 1 TKDE, 1 TOIS, 1 TMM, and 1 Information Fusion. </li>
 <li><em>2023.09-2025.10:</em> 🎈 I have also contributed as a co-author to many outstanding works, including NDSS, TDSC, KDD, IROS (Oral), etc. </li>
-<li><em>2023.09-2025.10:</em> 📚️ I have served as a reviewer for over 10 top-tier conferences (e.g., ICLR, NeurIPS, KDD, SIGIR, etc.) and 5 top-tier journals (e.g., TKDE, TOIS, TII, TIT, etc.). Additionally, I was honored as an Outstanding Reviewer and invited as a Session Chair at KDD 2025. </li>
+<li><em>2023.09-2025.10:</em> 📚️ I have served as a reviewer for over 10 top-tier conferences (e.g., ICLR, NeurIPS, KDD, SIGIR, etc.) and 5 top-tier journals (e.g., TKDE, TOIS, TII, TIT, etc.). Additionally, I was honored as an Outstanding Reviewer and invited as a Session Chair at KDD 2025. </li>-->
 
 
 
