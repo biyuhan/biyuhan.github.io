@@ -273,9 +273,11 @@ color: #2980b9;
 
 <span class='anchor' id='about-me'></span>
 # About
-I am currently an PhD Student from the University of Hong Kong. My research interests include Recommendation, Graph Learning, Multimodal Understanding, and Data Privacy.
+I am a  Ph.D. candidate majoring in Software Engineering at School of Computer Science and Artificial Intelligence, Zhengzhou University. My research interests include data mining and machine learning, with a particular focus on recommender systems, graph representation learning, and information bottleneck. I have published and co-authored some research papers in several top journals and conferences.
 
-I have extensive research experience and a strong publication record in multimodal recommendation, collaborative filtering, group recommendation, and graph generalization. I have also explored multimodal understanding and the application of graph-based methods to downstream tasks, with several publications in these areas. Currently, I am actively pursuing new directions in reasoning-aware recommendation, agentic recommendation, and graph for scientific discovery.
+<!-- I am currently an PhD Student from the University of Hong Kong. My research interests include Recommendation, Graph Learning, Multimodal Understanding, and Data Privacy.
+
+I have extensive research experience and a strong publication record in multimodal recommendation, collaborative filtering, group recommendation, and graph generalization. I have also explored multimodal understanding and the application of graph-based methods to downstream tasks, with several publications in these areas. Currently, I am actively pursuing new directions in reasoning-aware recommendation, agentic recommendation, and graph for scientific discovery.-->
 
 I look forward to collaborating in the field of Recommendation and Graph Learning.
 
@@ -329,7 +331,7 @@ scrollbar-color: #2c3e50 #e9ecef;
 <li><em>2025.03:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Information Processing & Management (IPM)</strong>. </li>  
 <li><em>2024.12:</em> 🎉 One collaborative paper (co-corresponding author) has been accepted by <strong>IEEE Transactions on Industrial Informatics (TII)</strong>. Congratulations to <strong>Yiqiang Mao</strong>! </li>
 
-<--!
+<!--
  <li><em>2026.04:</em> 🎉 One conference extension paper on mutlimodal recommendation has been accepted by <strong>ACM Transactions on Recommender Systems (TORS)</strong>. </li>
 <li><em>2026.03:</em> 🎉 One paper supervised by me as the corresponding author has been accepted by <strong>CVPR 2026 (findings)</strong>. Congratulations to <strong>Ge Wang</strong>! </li>
 <li><em>2026.03:</em> 📚️ I serve as a reviewer for <strong>Neural Networks (NEUNET)</strong>. </li>
@@ -441,6 +443,10 @@ hspace="10" wspace="20" src="../images/VI-MMRec.png">
 # 🎖 Honors and Awards
 - 
 <hr>
+# 📖 Academic Background
+- **Sep 2021 - Now:** Zhengzhou University (Ph.D. Candidate), Software Engineering <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+- **Sep 2018 - Jun 2021:** Zhengzhou University (MSc), Software Engineering <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+- **Sep 2010 - Jun 2014:** Shenzhen University (BSc), Computer Science and Technology
 # 📖 Educations
 <div class="education-card">
 <div class="education-info">
