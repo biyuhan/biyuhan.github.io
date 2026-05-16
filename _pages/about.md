@@ -385,7 +385,7 @@ hspace="10" wspace="20" src="../images/SG-URInit.png">
 </dt> -->
 <dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
 <dd><strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye* </dd>
-<dd> Expert Systems with Applications, 2025. (中科院1区 SCI, IF: 7.5)</dd>
+<dd>Expert Systems with Applications, 2025. (中科院1区 SCI, IF: 7.5)</dd>
 </dl>
 
 <dl>
@@ -395,67 +395,43 @@ hspace="10" wspace="20" src="../images/SG-URInit.png">
 </dt> -->
 <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
 <dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye* </dd>
-<dd> Information Processing & Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
+<dd>Information Processing & Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
 </dl>
 
 <dl>
-<dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/CAMMSR.png">
-<span class="conference-label">ICDE 2026</span>
-</dt>
-<dd><a href="https://arxiv.org/pdf/2603.04320"><strong>CAMMSR: Category-Guided Attentive Mixture of Experts for Multimodal Sequential Recommendation</strong></a></dd>
-<dd><strong>Jinfeng Xu</strong>, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Yijie Li, Jianheng Tang, Yunhuai Liu, and Edith Ngai</dd>
-<dd> IEEE International Conference on Data Engineering (<strong>ICDE</strong>), 2026</dd>
+<!-- <dt><img align="left" width="100"
+hspace="10" wspace="20" src="../images/SG-URInit.png">
+<span class="conference-label">IPM 2025</span>
+</dt> -->
+<dd><a href="https://link.springer.com/article/10.1007/s40747-024-01427-x"><strong>Consistency-constrained RGB-T crowd counting via mutual information maximization</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Pengcheng Yuan, Xiangming Huang, Yangdong Ye* </dd>
+<dd>Complex & Intelligent Systems, 2024. (中科院2区 SCI, IF: 5.0)</dd>
 </dl>
-
-
-<hr>
 
 <dl>
-<dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/DGGVAE.png">
-<span class="conference-label">TOIS 2026</span>
-</dt>
-<dd><a href="https://dl.acm.org/doi/pdf/10.1145/3785145"><strong>DGGVAE: Dual-Granularity Graph Variational Auto-Encoder for Group Recommendation</strong></a></dd>
-<dd><strong>Jinfeng Xu</strong>, Zheyu Chen, Jinze Li, Shuo Yang, Wei Wang, Hewei Wang, Yijie Li, Xiping Hu, and Edith Ngai</dd>
-<dd> ACM Transactions on Information Systems (<strong>TOIS</strong>), 2026</dd>
+<!-- <dt><img align="left" width="100"
+hspace="10" wspace="20" src="../images/SG-URInit.png">
+<span class="conference-label">IPM 2025</span>
+</dt> -->
+<dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705120308200"><strong>Learning a deep network with cross-hierarchy aggregation for crowd counting</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Xin Zeng, Shizhe Hu, Sonephet Phoummixay, Yangdong Ye* </dd>
+<dd>Knowledge-Based Systems, 2021. (中科院1区 SCI, IF: 8.1)</dd>
 </dl>
 
-
-<hr>
-
-<dl>
-<dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/LEAP.png">
-<span class="conference-label">KDD 2026</span>
-</dt>
-<dd><a href="https://arxiv.org/pdf/2512.08763"><strong>Learning and Editing Universal Graph Prompt Tuning via Reinforcement Learning</strong></a></dd>
-<dd><strong>Jinfeng Xu</strong>, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Yijie Li, and Edith Ngai</dd>
-<dd> ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<strong>KDD</strong>), 2026</dd>
-</dl>
-
-
-<hr>
-
-<dl>
-<dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/VI-MMRec.png">
-<span class="conference-label">KDD 2026</span>
-</dt>
-<dd><a href="https://arxiv.org/pdf/2512.08702"><strong>VI-MMRec: Similarity-Aware Training Cost-free Virtual User-Item Interactions for Multimodal Recommendation</strong></a></dd>
-<dd><strong>Jinfeng Xu</strong>, Zheyu Chen, Shuo Yang, Jinze Li, Zitong Wan, Hewei Wang, Weijie Liu, Yijie Li, and Edith Ngai</dd>
-<dd> ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<strong>KDD</strong>), 2026</dd>
-</dl>
 
 
 <hr>
 # 🎖 Honors and Awards
 - 
+
 <hr>
 # 📖 Academic Background
 - **Sep 2021 - Now:** Zhengzhou University (Ph.D. Candidate), Software Engineering <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **Sep 2018 - Jun 2021:** Zhengzhou University (MSc), Software Engineering <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **Sep 2010 - Jun 2014:** Shenzhen University (BSc), Computer Science and Technology
+
+<!--
+<hr>
 # 📖 Educations
 <div class="education-card">
 <div class="education-info">
@@ -467,5 +443,5 @@ hspace="10" wspace="20" src="../images/VI-MMRec.png">
 <div class="education-logo">
 <img src="../images/HKU-logo.png" alt="University of Hong Kong" />
 </div>
-</div> 
+</div> -->
 <hr>
