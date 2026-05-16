@@ -380,7 +380,7 @@ scrollbar-color: #2c3e50 #e9ecef;
 
 <dl>
 <!-- <dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/SG-URInit.png">
+hspace="7" wspace="20" src="../images/SG-URInit.png">
 <span class="conference-label">IPM 2025</span>
 </dt> -->
 <dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
@@ -390,7 +390,7 @@ hspace="10" wspace="20" src="../images/SG-URInit.png">
 
 <dl>
 <!-- <dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/SG-URInit.png">
+hspace="7" wspace="20" src="../images/SG-URInit.png">
 <span class="conference-label">IPM 2025</span>
 </dt> -->
 <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
@@ -400,7 +400,7 @@ hspace="10" wspace="20" src="../images/SG-URInit.png">
 
 <dl>
 <!-- <dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/SG-URInit.png">
+hspace="7" wspace="20" src="../images/SG-URInit.png">
 <span class="conference-label">IPM 2025</span>
 </dt> -->
 <dd><a href="https://link.springer.com/article/10.1007/s40747-024-01427-x"><strong>Consistency-constrained RGB-T crowd counting via mutual information maximization</strong></a></dd>
@@ -410,7 +410,7 @@ hspace="10" wspace="20" src="../images/SG-URInit.png">
 
 <dl>
 <!-- <dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/SG-URInit.png">
+hspace="7" wspace="20" src="../images/SG-URInit.png">
 <span class="conference-label">IPM 2025</span>
 </dt> -->
 <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705120308200"><strong>Learning a deep network with cross-hierarchy aggregation for crowd counting</strong></a></dd>
@@ -425,7 +425,7 @@ hspace="10" wspace="20" src="../images/SG-URInit.png">
 - 
 
 <hr>
-# 📖 Academic Background
+# 📖 Educations
 - **2021.09 - 2025.06:** Zhengzhou University (Ph.D. Candidate), Software Engineering <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **2010.09 - 2014.06:** Shenzhen University (BSc), Software Engineering
