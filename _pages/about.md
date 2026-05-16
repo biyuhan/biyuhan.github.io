@@ -329,7 +329,7 @@ scrollbar-color: #2c3e50 #e9ecef;
 </style>
 
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-<li><em>2025.05:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Expert Systems with Applications (ESWA)</strong>. </li>
+<li><em>2025.12:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Expert Systems with Applications (ESWA)</strong>. </li>
 <li><em>2025.07:</em> 🎉 One collaborative paper has been accepted by <strong>ACM MM 2025</strong>. Congratulations to <strong>Haichuan Fang</strong>! </li>
 <li><em>2025.05:</em> 🎉 One collaborative paper has been accepted by <strong>Knowledge-Based Systems (KBS)</strong>. Congratulations to <strong>Yiqiang Mao</strong>! </li>
 <li><em>2025.03:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Information Processing & Management (IPM)</strong>. </li>  
