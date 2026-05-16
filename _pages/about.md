@@ -272,7 +272,9 @@ color: #2980b9;
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+
 # About
+
 I am a  Ph.D. candidate majoring in Software Engineering at School of Computer Science and Artificial Intelligence, Zhengzhou University. My research interests include data mining and machine learning, with a particular focus on recommender systems, graph representation learning, and information bottleneck. I have published and co-authored some research papers in several top journals and conferences.
 
 <!-- I am currently an PhD Student from the University of Hong Kong. My research interests include Recommendation, Graph Learning, Multimodal Understanding, and Data Privacy.
@@ -376,6 +378,7 @@ scrollbar-color: #2c3e50 #e9ecef;
 
 <hr>
 # 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
+
 **# indicates the authors with equal contributions, and * indicates the corresponding authors.**
 
 <dl>
@@ -422,10 +425,12 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 
 <hr>
 # 🎖 Honors & Awards
+
 - 
 
 <hr>
 # 📖 Educations
+
 - **2021.09 - 2025.06:** Zhengzhou University (Ph.D. Candidate), Software Engineering <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **2010.09 - 2014.06:** Shenzhen University (BSc), Software Engineering
