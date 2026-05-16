@@ -21,10 +21,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Qiang Guo    郭强"
+  name             : "Qiang Guo&nbsp;&nbsp;&nbsp;郭强"
   avatar           : "images/bio.jpg"
   bio              : "Zhengzhou University"
-  location         : "Zhengzhou, Henan, China"
+  location         : #"Zhengzhou, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en"
