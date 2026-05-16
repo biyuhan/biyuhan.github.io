@@ -10,7 +10,7 @@ redirect_from:
 
 <style>
 dl {
-margin-bottom: 60px; /* 调整这个值以获得合适的间距 */
+margin-bottom: 40px; /* 调整这个值以获得合适的间距 */
 clear: both;
 }
 
@@ -285,9 +285,11 @@ I look forward to collaborating in the field of Recommendation and Graph Learnin
 
 I am also seeking self-motivated collaborators.
 
-Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="https://Jinfeng-Xu.github.io/images/WeChat.jpeg">WeChat</a>. 
+Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a>. 
 
-<!-- 📄 You can download my CV <a href="assets/徐锦峰-CV.pdf" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>.-->
+<!-- 📄 You can download my CV <a href="assets/徐锦峰-CV.pdf" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>.
+ or <a href="https://Jinfeng-Xu.github.io/images/WeChat.jpeg">WeChat</a>
+ -->
 
 <!-- <div style="background: linear-gradient(135deg, #f3f8ff, #e8f4fd); padding: 20px; border-radius: 10px; margin: 20px 0; border: 2px solid #1976d2; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;">
 <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)); pointer-events: none;"></div>
