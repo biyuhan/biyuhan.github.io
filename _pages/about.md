@@ -272,7 +272,7 @@ color: #2980b9;
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
+# About
 I am currently an PhD Student from the University of Hong Kong. My research interests include Recommendation, Graph Learning, Multimodal Understanding, and Data Privacy.
 
 I have extensive research experience and a strong publication record in multimodal recommendation, collaborative filtering, group recommendation, and graph generalization. I have also explored multimodal understanding and the application of graph-based methods to downstream tasks, with several publications in these areas. Currently, I am actively pursuing new directions in reasoning-aware recommendation, agentic recommendation, and graph for scientific discovery.
@@ -371,17 +371,17 @@ scrollbar-color: #2c3e50 #e9ecef;
 <br/>
 
 <hr>
-# 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=-8eQo3UAAAAJ&hl=en))
+# 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
 **# indicates the authors with equal contributions, and * indicates the corresponding authors.**
 
 <dl>
-<dt><img align="left" width="100"
+<!-- <dt><img align="left" width="100"
 hspace="10" wspace="20" src="../images/SG-URInit.png">
-<span class="conference-label">SIGIR 2026</span>
-</dt>
-<dd><a href="https://arxiv.org/pdf/2604.14839"><strong>Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation</strong></a></dd>
-<dd><strong>Jinfeng Xu</strong>, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Jianheng Tang, Wei Wang, Xiping Hu, and Edith Ngai</dd>
-<dd> ACM International Conference on Research and Development in Information Retrieval (<strong>SIGIR</strong>), 2026</dd>
+<span class="conference-label">IPM 2025</span>
+</dt> -->
+<dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye![](http://latex.codecogs.com/svg.latex?\ast)</dd>
+<dd> Information Processing & Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
 </dl>
 
 
