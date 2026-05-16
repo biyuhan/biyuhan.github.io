@@ -421,7 +421,7 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 
 
 <hr>
-# 🎖 Honors and Awards
+# 🎖 Honors & Awards
 - 
 
 <hr>
