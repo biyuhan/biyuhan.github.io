@@ -383,11 +383,20 @@ scrollbar-color: #2c3e50 #e9ecef;
 hspace="10" wspace="20" src="../images/SG-URInit.png">
 <span class="conference-label">IPM 2025</span>
 </dt> -->
-<dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
-<dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye![](http://latex.codecogs.com/svg.latex?\ast)</dd>
-<dd> Information Processing & Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
+<dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye* </dd>
+<dd> Expert Systems with Applications, 2025. (中科院1区 SCI, IF: 7.5)</dd>
 </dl>
 
+<dl>
+<!-- <dt><img align="left" width="100"
+hspace="10" wspace="20" src="../images/SG-URInit.png">
+<span class="conference-label">IPM 2025</span>
+</dt> -->
+<dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye* </dd>
+<dd> Information Processing & Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
+</dl>
 
 <dl>
 <dt><img align="left" width="100"
