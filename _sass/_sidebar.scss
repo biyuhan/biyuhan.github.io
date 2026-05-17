@@ -35,8 +35,6 @@
   }
 
   h3, h4 {
-     text-align: center;
-     align-items: center;
     font-size: $type-size-5;
   }
 
@@ -73,7 +71,6 @@
 .profile_box{
   @include breakpoint($large) {
     display: block;
-     text-align: center;
   }
   display: flex;
   justify-content: flex-start;
