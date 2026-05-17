@@ -438,6 +438,9 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
  <strong>2021.09 - 2025.06:</strong> <br/> Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
 </div>
 </div>
+ <div class="education-logo">
+<img src="../images/zzu-logo.png" alt="Zhengzhou University" />
+</div>
 </div>
 <div class="education-card">
 <div class="education-info">
@@ -453,21 +456,6 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 </div>
 </div>
 </div>
-
-<!--
-<hr>
-# 📖 Educations
-<div class="education-card">
-<div class="education-info">
-<div class="education-title">
- <strong>2023.09 - 2026.07 (Expected)</strong><br/>
- PhD, University of Hong Kong
-</div>
-</div>
-<div class="education-logo">
-<img src="../images/HKU-logo.png" alt="University of Hong Kong" />
-</div>
-</div> -->
 
 <hr>
 
