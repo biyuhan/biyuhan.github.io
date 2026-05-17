@@ -272,8 +272,7 @@ color: #2980b9;
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
-# About
+# About Me
 
 I am a  Ph.D. candidate majoring in Software Engineering at School of Computer Science and Artificial Intelligence, Zhengzhou University. My research interests include data mining and machine learning, with a particular focus on recommender systems, graph representation learning, and information bottleneck. I have published and co-authored some research papers in several top journals and conferences.
 
@@ -297,7 +296,10 @@ Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a>.
 I am looking for PostDoc opportunities in 26Fall related to Recommendation and Graph Learning, especially in labs based in the United States/Hong Kong/Singapore. My research interests include Recommendation System, Data Privacy, Graph Learning, Self-supervised Learning, Computer Vision, and Federated Learning. If our research interests align, please feel free to contact me via <a href="mailto:jinfeng@connect.hku.hk">Email</a> or <a href="https://Jinfeng-Xu.github.io/images/WeChat.jpeg">WeChat</a>.
 </p>
 </div>-->
+
 <hr>
+
+<span class="anchor" id="news"></span>
 # 🔥 News
 
 <div style="max-height: 350px; overflow-y: auto; padding: 20px; background: #f8f9fa; border-left: 4px solid #2c3e50; margin: 0px 0;">
@@ -368,19 +370,14 @@ scrollbar-color: #2c3e50 #e9ecef;
 <li><em>2023.09-2025.10:</em> 🎈 I have also contributed as a co-author to many outstanding works, including NDSS, TDSC, KDD, IROS (Oral), etc. </li>
 <li><em>2023.09-2025.10:</em> 📚️ I have served as a reviewer for over 10 top-tier conferences (e.g., ICLR, NeurIPS, KDD, SIGIR, etc.) and 5 top-tier journals (e.g., TKDE, TOIS, TII, TIT, etc.). Additionally, I was honored as an Outstanding Reviewer and invited as a Session Chair at KDD 2025. </li>-->
 
-
-
-
-
-
 </ul>
 </div>
-
 <br/>
 
 <hr>
-# 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
 
+<span class="anchor" id="publications"></span>
+# 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
 **# indicates the authors with equal contributions, and * indicates the corresponding authors.**
 
 <dl>
@@ -423,18 +420,20 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 <dd>Knowledge-Based Systems, 2021. (中科院1区 SCI, IF: 8.1)</dd>
 </dl>
 
-
-
 <hr>
+
+<span class="anchor" id="honors-awards"></span>
 # 🎖 Honors & Awards
 
-- 
+- To be updated!
 
 <hr>
+
+<span class="anchor" id="educations"></span>
 # 📖 Educations
 
-- **2021.09 - 2025.06:** Zhengzhou University (PhD), Software Engineering <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
-- **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology <br>supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+- **2021.09 - 2025.06:** Zhengzhou University (PhD), Software Engineering supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+- **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **2010.09 - 2014.06:** Shenzhen University (BSc), Software Engineering
 
 <!--
