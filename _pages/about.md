@@ -432,7 +432,10 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 <span class="anchor" id="educations"></span>
 # 📖 Educations
 
-- **2021.09 - 2025.06:** Zhengzhou University (PhD), Software Engineering supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+<div class="education-card">
+ 
+ - **2021.09 - 2025.06:** Zhengzhou University (PhD), Software Engineering supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+ - </div>
 - **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **2010.09 - 2014.06:** Shenzhen University (BSc), Software Engineering
 
@@ -450,4 +453,15 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 <img src="../images/HKU-logo.png" alt="University of Hong Kong" />
 </div>
 </div> -->
+
+<hr>
+
+<span class="anchor" id="useful-links"></span>
+# 🔗 Useful Links
+
+- **CCF Deadlines:** [CCF Deadlines](https://ccfddl.com/)
+- **AI Deadlines:** [AI Conference Deadlines](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)
+- **CCF List:** [ccf.atom.im](https://ccf.atom.im/)
+- **CSRankings:** [Computer Science Rankings](https://csrankings.org/)
+- **Core Ranking:** [Conference Portal](https://portal.core.edu.au/conf-ranks/)
 <hr>
