@@ -21,6 +21,12 @@
     </p>
   {% endif %}
 
+  {% if author.email2 %}
+    <p class="author__email">
+      <a href="mailto:{{ author.email2 }}">{{ author.email2 }}</a>
+    </p>
+  {% endif %}
+
   {% if author.bio %}
     <p class="author__bio">{{ author.bio }}</p>
   {% endif %}
