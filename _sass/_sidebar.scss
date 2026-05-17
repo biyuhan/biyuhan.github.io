@@ -71,6 +71,7 @@
 .profile_box{
   @include breakpoint($large) {
     display: block;
+     text-align: center;
   }
   display: flex;
   justify-content: flex-start;
@@ -114,9 +115,11 @@
 
   @include breakpoint($large) {
     display: block;
+     text-align: center;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+     
   }
 }
 
@@ -124,6 +127,7 @@
   margin: 0;
 
   @include breakpoint($large) {
+     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -131,6 +135,7 @@
 
 .sidebar .author__name {
   @include breakpoint($medium) {
+     text-align: center;
     font-size: $type-size-3;
   }
   font-family: $sans-serif;
