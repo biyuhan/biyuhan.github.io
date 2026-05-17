@@ -439,8 +439,20 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 </div>
 </div>
 </div>
-- **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
-- **2010.09 - 2014.06:** Shenzhen University (BSc), Software Engineering
+<div class="education-card">
+<div class="education-info">
+<div class="education-title">
+ <strong>2018.09 - 2021.06:</strong> <br/> Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
+</div>
+</div>
+</div>
+<div class="education-card">
+<div class="education-info">
+<div class="education-title">
+ <strong>2010.09 - 2014.06:</strong> <br/> Shenzhen University (BSc), Software Engineering
+</div>
+</div>
+</div>
 
 <!--
 <hr>
