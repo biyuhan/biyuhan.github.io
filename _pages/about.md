@@ -10,42 +10,70 @@ redirect_from:
 
 <style>
 /* 侧边栏个人信息居中显示 */
-.author__content--center {
-  text-align: center;
+/* 头像居中 */
+.sidebar .profile_box .author__avatar {
+  text-align: center !important;
 }
 
-.author__content--center .author__name {
-  margin-bottom: 4px;
+.sidebar .profile_box .author__avatar img {
+  display: block !important;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 头像下方：英文名、中文名、邮箱、单位全部居中 */
+.sidebar .profile_box .author__content {
+  display: block !important;
+  width: 100% !important;
+  max-width: 220px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  float: none !important;
+}
+
+/* 英文名居中 */
+.sidebar .profile_box .author__name {
+  display: block !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 12px;
   line-height: 1.25;
 }
 
-.author__name-zh {
-  margin: 0 0 8px 0;
-  font-weight: 600;
+/* 中文名居中 */
+.sidebar .profile_box .author__name-zh {
+  display: block !important;
+  text-align: center !important;
+  margin: 0 0 14px 0;
   line-height: 1.25;
   white-space: nowrap;
 }
 
-.author__email {
-  margin: 0 0 8px 0;
-  font-size: 0.95em;
-  font-style: italic;
+/* 邮箱居中 */
+.sidebar .profile_box .author__email {
+  display: block !important;
+  text-align: center !important;
+  margin: 0 0 12px 0;
   line-height: 1.35;
   word-break: break-word;
 }
 
-.author__email a {
+.sidebar .profile_box .author__email a {
   color: inherit;
   text-decoration: none;
 }
 
-.author__email a:hover {
+.sidebar .profile_box .author__email a:hover {
   text-decoration: underline;
 }
 
-.author__content--center .author__bio {
-  margin-top: 6px;
-  text-align: center;
+/* 单位也跟着居中 */
+.sidebar .profile_box .author__bio {
+  text-align: center !important;
+  margin-top: 8px;
 }
 
 
