@@ -25,8 +25,9 @@ author:
   name_zh          : "郭强"
   avatar           : "images/bio.jpg"
   bio              : "Zhengzhou University"
-  location         : "Henan, China"
+  location         : # "Henan, China"
   email            : "qiangguo@zzu.edu.cn"
+  email2           : "ieqguo@gmail.com"
   employer         :
   dblp             : "https://dblp.uni-trier.de/pid/72/1985-12.html"
   orcid            : "https://orcid.org/0000-0003-0916-6667"
