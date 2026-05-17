@@ -434,9 +434,9 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 
 <div class="education-card">
  
- - **2021.09 - 2025.06:** Zhengzhou University (PhD), Software Engineering supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+ <strong>2021.09 - 2025.06:</strong> <br/> Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
  - </div>
-- **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+- **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
 - **2010.09 - 2014.06:** Shenzhen University (BSc), Software Engineering
 
 <!--
