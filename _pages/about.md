@@ -290,12 +290,14 @@ Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a>.
  or <a href="https://Jinfeng-Xu.github.io/images/WeChat.jpeg">WeChat</a>
  -->
 
-<!-- <div style="background: linear-gradient(135deg, #f3f8ff, #e8f4fd); padding: 20px; border-radius: 10px; margin: 20px 0; border: 2px solid #1976d2; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;">
+<!-- 
+<div style="background: linear-gradient(135deg, #f3f8ff, #e8f4fd); padding: 20px; border-radius: 10px; margin: 20px 0; border: 2px solid #1976d2; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;">
 <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)); pointer-events: none;"></div>
 <p style="margin: 0; position: relative; z-index: 1;"> <strong style="color: red">🌟 📢 PostDoc Opportunity</strong><br>
 I am looking for PostDoc opportunities in 26Fall related to Recommendation and Graph Learning, especially in labs based in the United States/Hong Kong/Singapore. My research interests include Recommendation System, Data Privacy, Graph Learning, Self-supervised Learning, Computer Vision, and Federated Learning. If our research interests align, please feel free to contact me via <a href="mailto:jinfeng@connect.hku.hk">Email</a> or <a href="https://Jinfeng-Xu.github.io/images/WeChat.jpeg">WeChat</a>.
 </p>
-</div>-->
+</div>
+-->
 
 <hr>
 
@@ -368,7 +370,8 @@ scrollbar-color: #2c3e50 #e9ecef;
 <li><em>2025.10:</em> 🌐 My new personal academic homepage is now online.</li>
 <li><em>2023.09-2025.10:</em> 🎈 I have published more than 10 papers in top-tier conferences and journals as the first author, including 1 KDD, 2 SIGIR, 1 ACM MM, 1 RecSys (Spotlight Oral), 3 CIKM, 1 AAAI, 1 ICASSP, 1 TKDE, 1 TOIS, 1 TMM, and 1 Information Fusion. </li>
 <li><em>2023.09-2025.10:</em> 🎈 I have also contributed as a co-author to many outstanding works, including NDSS, TDSC, KDD, IROS (Oral), etc. </li>
-<li><em>2023.09-2025.10:</em> 📚️ I have served as a reviewer for over 10 top-tier conferences (e.g., ICLR, NeurIPS, KDD, SIGIR, etc.) and 5 top-tier journals (e.g., TKDE, TOIS, TII, TIT, etc.). Additionally, I was honored as an Outstanding Reviewer and invited as a Session Chair at KDD 2025. </li>-->
+<li><em>2023.09-2025.10:</em> 📚️ I have served as a reviewer for over 10 top-tier conferences (e.g., ICLR, NeurIPS, KDD, SIGIR, etc.) and 5 top-tier journals (e.g., TKDE, TOIS, TII, TIT, etc.). Additionally, I was honored as an Outstanding Reviewer and invited as a Session Chair at KDD 2025. </li>
+-->
 
 </ul>
 </div>
@@ -435,24 +438,26 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 <div class="education-card">
 <div class="education-info">
 <div class="education-title">
- <strong>2021.09 - 2025.06:</strong> <br/> Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
+<strong>2021.09 - 2025.06:</strong> <br/> Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
 </div>
 </div>
- <div class="education-logo">
+<div class="education-logo">
 <img src="../images/zzu-logo.png" alt="Zhengzhou University" />
 </div>
 </div>
+
 <div class="education-card">
 <div class="education-info">
 <div class="education-title">
- <strong>2018.09 - 2021.06:</strong> <br/> Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
+<strong>2018.09 - 2021.06:</strong> <br/> Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
 </div>
 </div>
 </div>
+
 <div class="education-card">
 <div class="education-info">
 <div class="education-title">
- <strong>2010.09 - 2014.06:</strong> <br/> Shenzhen University (BSc), Software Engineering
+<strong>2010.09 - 2014.06:</strong> <br/> Shenzhen University (BSc), Software Engineering
 </div>
 </div>
 </div>
@@ -461,7 +466,6 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 
 <span class="anchor" id="useful-links"></span>
 # 🔗 Useful Links
-
 
 - **CCF List:** [ccf.atom.im](https://ccf.atom.im/)
 - **CCF Deadlines:** [CCF Deadlines](https://ccfddl.com/)
