@@ -9,7 +9,8 @@ redirect_from:
 ---
 
 <style>
- .author__content--center {
+/* 侧边栏个人信息居中显示 */
+.author__content--center {
   text-align: center;
 }
 
@@ -46,6 +47,8 @@ redirect_from:
   margin-top: 6px;
   text-align: center;
 }
+
+
 dl {
 margin-bottom: 40px; /* 调整这个值以获得合适的间距 */
 clear: both;
