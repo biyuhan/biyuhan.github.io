@@ -21,8 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Qiang Guo"<br>郭&nbsp;&nbsp;强
-  # name_zh          : # "郭 强"
+  name             : "Qiang Guo"
   avatar           : "images/bio.jpg"
   bio              : "Zhengzhou University"
   location         : # "Henan, China"
