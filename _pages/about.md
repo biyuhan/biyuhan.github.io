@@ -474,9 +474,10 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 <span class="anchor" id="useful-links"></span>
 # 🔗 Useful Links
 
+
+- **CCF List:** [ccf.atom.im](https://ccf.atom.im/)
 - **CCF Deadlines:** [CCF Deadlines](https://ccfddl.com/)
 - **AI Deadlines:** [AI Conference Deadlines](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)
-- **CCF List:** [ccf.atom.im](https://ccf.atom.im/)
 - **CSRankings:** [Computer Science Rankings](https://csrankings.org/)
 - **Core Ranking:** [Conference Portal](https://portal.core.edu.au/conf-ranks/)
 <hr>
