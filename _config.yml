@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Qiang Guo's Homepage"
-description              : #"Qiang Guo (郭强), 郑州大学计算机与人工智能学院初聘副教授"
+description              : # "Qiang Guo (郭强), 郑州大学计算机与人工智能学院初聘副教授"
 repository               : "ieqiangguo/ieqiangguo.github.io"
 google_scholar_stats_use_cdn : true
 
