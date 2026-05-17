@@ -8,6 +8,30 @@
     <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
   </div>
 
+  <div class="author__content">
+  <h3 class="author__name">{{ author.name }}</h3>
+
+  {% if author.name_zh %}
+    <h3 class="author__name-zh">{{ author.name_zh }}</h3>
+  {% endif %}
+
+  {% if author.email %}
+    <p class="author__email">
+      <a href="mailto:{{ author.email }}">{{ author.email }}</a>
+    </p>
+  {% endif %}
+
+  {% if author.email2 %}
+    <p class="author__email">
+      <a href="mailto:{{ author.email2 }}">{{ author.email2 }}</a>
+    </p>
+  {% endif %}
+
+  {% if author.bio %}
+    <p class="author__bio">{{ author.bio }}</p>
+  {% endif %}
+  </div>
+  <!--
   <div class="author__content author__content--center">
   <h3 class="author__name">{{ author.name }}</h3>
 
@@ -30,7 +54,8 @@
   {% if author.bio %}
     <p class="author__bio">{{ author.bio }}</p>
   {% endif %}
-</div>
+  </div>
+  -->
 
   <!--
   <div class="author__content">
