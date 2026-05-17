@@ -48,9 +48,11 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
+      <!--
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
+      -->
       {% if author.dblp %}
         <li><a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i> DBLP</a></li>
       {% endif %}
@@ -143,9 +145,11 @@
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
+      <!--
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
+      -->
       {% if author.dblp %}
         <a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i></a>
       {% endif %}
