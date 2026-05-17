@@ -21,15 +21,19 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Qiang Guo<br>郭&nbsp;&nbsp;强"
+  name             : "Qiang Guo" # <br>郭&nbsp;&nbsp;强
+  name_zh          : "郭强"
   avatar           : "images/bio.jpg"
   bio              : "Zhengzhou University"
-  location         : #"Zhengzhou, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en"
+  location         : "Henan, China"
   email            : "qiangguo@zzu.edu.cn"
+  employer         :
+  dblp             : "https://dblp.uni-trier.de/pid/72/1985-12.html"
+  orcid            : "https://orcid.org/0000-0003-0916-6667"
+  googlescholar    : "https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en"
   researchgate     : "https://www.researchgate.net/profile/Qiang-Guo-36"
+  github           : "ieqiangguo"  # e.g., "github username"
+  pubmed           : 
   uri              :
   bitbucket        :
   codepen          :
@@ -37,15 +41,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ieqiangguo"  # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # "锦峰-徐-a51718288" # e.g., "linkedin username"
-  dblp             : "https://dblp.uni-trier.de/pid/72/1985-12.html"
-  orcid            : "https://orcid.org/0000-0003-0916-6667"
+  linkedin         : # e.g., "linkedin username"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
