@@ -109,7 +109,6 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  horizontal-align: right;
   padding-left: 10px;
   min-width: 120px;
   // padding-right: 25px;
@@ -117,7 +116,6 @@
 
   @include breakpoint($large) {
     display: block;
-     text-align: center;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -129,7 +127,6 @@
   margin: 0;
 
   @include breakpoint($large) {
-     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -137,7 +134,6 @@
 
 .sidebar .author__name {
   @include breakpoint($medium) {
-     text-align: center;
     font-size: $type-size-3;
   }
   font-family: $sans-serif;
