@@ -9,6 +9,43 @@ redirect_from:
 ---
 
 <style>
+ .author__content--center {
+  text-align: center;
+}
+
+.author__content--center .author__name {
+  margin-bottom: 4px;
+  line-height: 1.25;
+}
+
+.author__name-zh {
+  margin: 0 0 8px 0;
+  font-weight: 600;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.author__email {
+  margin: 0 0 8px 0;
+  font-size: 0.95em;
+  font-style: italic;
+  line-height: 1.35;
+  word-break: break-word;
+}
+
+.author__email a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.author__email a:hover {
+  text-decoration: underline;
+}
+
+.author__content--center .author__bio {
+  margin-top: 6px;
+  text-align: center;
+}
 dl {
 margin-bottom: 40px; /* 调整这个值以获得合适的间距 */
 clear: both;
