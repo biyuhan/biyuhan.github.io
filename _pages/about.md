@@ -433,9 +433,12 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 # 📖 Educations
 
 <div class="education-card">
- 
+<div class="education-info">
+<div class="education-title">
  <strong>2021.09 - 2025.06:</strong> <br/> Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
- - </div>
+</div>
+</div>
+</div>
 - **2018.09 - 2021.06:** Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/">Prof. Yangdong Ye</a>
 - **2010.09 - 2014.06:** Shenzhen University (BSc), Software Engineering
 
