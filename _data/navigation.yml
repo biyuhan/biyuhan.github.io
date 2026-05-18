@@ -11,14 +11,20 @@ main:
   - title: "Funding"
     url: "/#funding"
     
-  - title: "Honors"
-    url: "/#honors"
+  #- title: "Honors"
+  #  url: "/#honors"
 
-  - title: "Services"
-    url: "/#services"
+  #- title: "Services"
+  #  url: "/#services"
+  
+  #- title: "Courses"
+  #  url: "/#courses"
+    
+  #- title: "Students"
+  #  url: "/#students"
 
-  - title: "Educations"
-    url: "/#educations"
+  - title: "Education"
+    url: "/#education"
 
   - title: "Useful Links"
     url: "/#useful-links"
