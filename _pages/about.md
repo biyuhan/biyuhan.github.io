@@ -8,7 +8,6 @@ redirect_from:
 - /about.html
 ---
 
-/* style settings */
 <style>
 dl {
 margin-bottom: 40px; /* 调整这个值以获得合适的间距 */
