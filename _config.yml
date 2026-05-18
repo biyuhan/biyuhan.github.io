@@ -5,21 +5,25 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Site Settings
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
 title                    : "Qiang Guo's Homepage"
-description              : # "Qiang Guo (郭强), 郑州大学计算机与人工智能学院初聘副教授"
+description              : # "Qiang Guo (郭强), faculty member at the School of Computer Science and Artificial Intelligence, Zhengzhou University."
 repository               : "ieqiangguo/ieqiangguo.github.io"
 google_scholar_stats_use_cdn : true
 
-# google analytics
+# google analytics. Example: G-XXXXXXXXXX
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
-# SEO Related
+# SEO Related   SEO verification tokens
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
-# Site Author
+# -----------------------------------------------------------------------------
+# Site author
+# -----------------------------------------------------------------------------
 author:
   name             : "Qiang Guo"
   name_zh          : "郭  强"
@@ -61,7 +65,9 @@ author:
   wikipedia        :
 
 
-# Reading Files
+# -----------------------------------------------------------------------------
+# Reading files
+# -----------------------------------------------------------------------------
 include:
   - .htaccess
   - _pages
@@ -100,15 +106,18 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
+# -----------------------------------------------------------------------------
 # Conversion
+# -----------------------------------------------------------------------------
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
+# -----------------------------------------------------------------------------
 # Markdown Processing
+# -----------------------------------------------------------------------------
 kramdown:
   input: GFM
   hard_wrap: false
@@ -119,7 +128,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# -----------------------------------------------------------------------------
 # Defaults
+# -----------------------------------------------------------------------------
 defaults:
   # _pages
   - scope:
@@ -130,24 +141,32 @@ defaults:
       author_profile: true
 
 
+# -----------------------------------------------------------------------------
 # Sass/SCSS
+# -----------------------------------------------------------------------------
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
+# -----------------------------------------------------------------------------
+# Output
+# -----------------------------------------------------------------------------
 permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
+# -----------------------------------------------------------------------------
 # Plugins
+# -----------------------------------------------------------------------------
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+
+# GitHub Pages safe-mode allowlist
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -157,7 +176,9 @@ whitelist:
   - jemoji
 
 
-# HTML Compression
+# -----------------------------------------------------------------------------
+# HTML compression
+# -----------------------------------------------------------------------------
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
