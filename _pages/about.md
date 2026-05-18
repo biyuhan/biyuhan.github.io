@@ -703,42 +703,65 @@ redirect_from:
 
 /* ===============================
    Sidebar profile font
-   Keep sidebar font consistent with page content
+   Keep text font consistent, but do NOT override icon fonts
    =============================== */
 
-.sidebar,
-.sidebar *,
+/* 左侧个人信息文字字体 */
 .profile_box,
-.profile_box *,
-.author__content,
-.author__content *,
-.author__urls,
-.author__urls *,
-.author__urls_sm,
-.author__urls_sm * {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "SimSun", "宋体", sans-serif;
+.profile_box .author__content,
+.profile_box .author__name,
+.profile_box .author__email,
+.profile_box .author__bio,
+.profile_box .author__urls li,
+.profile_box .author__urls a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "SimSun", "宋体", sans-serif !important;
 }
 
-/* 左侧个人信息整体字号，可按需要微调 */
-.author__name {
-  font-size: 1.35em;
-  font-weight: 700;
-  letter-spacing: 0.3px;
-}
-
-.author__name-zh {
-  font-family: "SimSun", "宋体", serif;
+/* 中文姓名使用宋体 */
+.profile_box .author__name-zh {
+  font-family: "SimSun", "宋体", serif !important;
   font-size: 1.25em;
   font-weight: 700;
   letter-spacing: 2px;
 }
 
-.author__email,
-.author__bio,
-.author__urls li,
-.author__urls a {
+/* 英文姓名 */
+.profile_box .author__name {
+  font-size: 1.35em;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* 邮箱和单位 */
+.profile_box .author__email,
+.profile_box .author__bio {
   font-size: 1.05em;
   line-height: 1.55;
+}
+
+/* DBLP / ORCID / Google Scholar 等链接文字 */
+.profile_box .author__urls li,
+.profile_box .author__urls a {
+  font-size: 1.05em;
+  line-height: 1.55;
+}
+
+/* 恢复 Font Awesome 图标字体，避免图标变成方框 */
+.profile_box i.fa,
+.profile_box i.fas {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+}
+
+.profile_box i.fab {
+  font-family: "Font Awesome 5 Brands" !important;
+  font-weight: 400 !important;
+}
+
+/* 恢复 Academicons 图标字体，例如 DBLP、ORCID */
+.profile_box i.ai {
+  font-family: "Academicons" !important;
+  font-weight: normal !important;
 }
 </style>
 
