@@ -424,47 +424,6 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
 <hr>
 
-<span class="anchor" id="education"></span>
-# 📖 Education
-
-<div class="education-card">
-  <div class="education-info">
-    <div class="education-title">
-      <strong>2021.09 - 2025.06:</strong><br>
-      Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
-    </div>
-  </div>
-  <div class="education-logo">
-    <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University">
-  </div>
-</div>
-
-<div class="education-card">
-  <div class="education-info">
-    <div class="education-title">
-      <strong>2018.09 - 2021.06:</strong><br>
-      Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
-    </div>
-  </div>
-  <div class="education-logo">
-    <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University">
-  </div>
-</div>
-
-<div class="education-card">
-  <div class="education-info">
-    <div class="education-title">
-      <strong>2010.09 - 2014.06:</strong><br>
-      Shenzhen University (BSc), Software Engineering
-    </div>
-  </div>
-  <div class="education-logo">
-    <img src="{{ '/images/szulogo.png' | relative_url }}" alt="Shenzhen University">
-  </div>
-</div>
-
-<hr>
-
 <span class="anchor" id="services"></span>
 # 🤝 Services
 
@@ -511,6 +470,47 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 <div class="info-card">
   <p>I am expected to recruit master’s students in the next admission cycle. Students interested in recommender systems, multimodal learning, graph representation learning, information bottleneck, and related machine learning topics are welcome to contact me.</p>
   <p>Please include your CV, transcript, research interests, and any representative projects or publications when contacting me.</p>
+</div>
+
+<hr>
+
+<span class="anchor" id="education"></span>
+# 📖 Education
+
+<div class="education-card">
+  <div class="education-info">
+    <div class="education-title">
+      <strong>2021.09 - 2025.06:</strong><br>
+      Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
+    </div>
+  </div>
+  <div class="education-logo">
+    <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University">
+  </div>
+</div>
+
+<div class="education-card">
+  <div class="education-info">
+    <div class="education-title">
+      <strong>2018.09 - 2021.06:</strong><br>
+      Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
+    </div>
+  </div>
+  <div class="education-logo">
+    <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University">
+  </div>
+</div>
+
+<div class="education-card">
+  <div class="education-info">
+    <div class="education-title">
+      <strong>2010.09 - 2014.06:</strong><br>
+      Shenzhen University (BSc), Software Engineering
+    </div>
+  </div>
+  <div class="education-logo">
+    <img src="{{ '/images/szulogo.png' | relative_url }}" alt="Shenzhen University">
+  </div>
 </div>
 
 <hr>
