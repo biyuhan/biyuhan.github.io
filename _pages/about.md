@@ -3,275 +3,326 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
-- /about/
-- /about.html
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
 <style>
-dl {
-margin-bottom: 40px; /* 调整这个值以获得合适的间距 */
-clear: both;
-}
+  :root {
+    --homepage-text: #333;
+    --homepage-primary: #2c3e50;
+    --homepage-link: #0066cc;
+    --homepage-muted: #666;
+    --homepage-bg: #f8f9fa;
+    --homepage-border: #e9ecef;
+    --homepage-accent: #3498db;
+    --homepage-body-size: 1.2em;
+  }
 
-/* 全局文本颜色 */
-body {
-color: #333; /* 主要文本颜色 */
-background-image: url('../images/bg.jpg'); /* 背景图片 */
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-}
+  body {
+    color: var(--homepage-text);
+    background-image: url("{{ '/images/bg.jpg' | relative_url }}");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
 
-/* 链接颜色 */
-a {
-color: #0066cc; /* 链接颜色 */
-}
+  a {
+    color: var(--homepage-link);
+  }
 
-/* 作者名字颜色 */
-strong {
-color: #000; /* 作者名字颜色 */
-}
+  strong {
+    color: #000;
+  }
 
-/* 年份标题颜色 */
-.year-title {
-color: #666;
-}
+  hr {
+    clear: both;
+    border: 1px solid #ebebeb;
+  }
 
-/* 会议标签样式 */
-.conference-label {
-position: absolute;
-top: 10px;
-left: -5px;
-background-color: #2c3e50;  /* 深蓝色背景 */
-color: white;  /* 白色文字 */
-padding: 6px 12px;
-border-radius: 6px;
-font-size: 1.2em;   /* 0.95em */
-font-weight: 600;
-letter-spacing: 0.5px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-z-index: 1;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-font-style: italic;  /* 添加斜体 */
-}
+  .page__content > p,
+  .publication-note,
+  .publication-list dd,
+  .news-list li,
+  .content-list li,
+  .useful-links li,
+  .info-card,
+  .service-list li {
+    font-size: var(--homepage-body-size);
+    line-height: 1.6;
+  }
 
-/* 鼠标悬停效果 */
-.conference-label:hover {
-background-color: #34495e;  /* 悬停时稍微变亮 */
-transition: background-color 0.2s ease;
-}
+  .page__content > p {
+    margin-bottom: 1em;
+  }
 
-dl dt img {
-width: 100%; /* 在移动端默认占满宽度 */
-aspect-ratio: 2/1; /* 设置宽高比为2:1，即高度为宽度的一半 */
-object-fit: cover; /* 确保图片不会被裁剪 */
-display: block;
-margin: 10px 10px 10px 0px; /* 适当的间距 */
+  .year-title {
+    color: var(--homepage-muted);
+  }
 
-/* 添加美化效果 */
-border-radius: 8px; /* 让图片有轻微的圆角 */
-border: 2px solid #ddd; /* 添加淡灰色的边框 */
-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* 添加轻微阴影 */
-padding: 5px; /* 给图片一些内边距，让它不贴着边框 */
-background-color: #fff; /* 设置背景色，让图片更加干净 */
-}
+  .conference-label {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    z-index: 1;
+    padding: 6px 12px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background-color: var(--homepage-primary);
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
 
-/* 在桌面端（宽度大于768px）时固定宽度 */
-@media screen and (min-width: 768px) {
-dl dt img {
-width: 350px;
-}
-}
+  .conference-label:hover {
+    background-color: #34495e;
+    transition: background-color 0.2s ease;
+  }
 
-dl dt {
-position: relative;
-}
+  .publication-list {
+    clear: both;
+    margin-bottom: 40px;
+  }
 
-hr {
-border: 1px solid #ebebeb; /* 调整分隔线的颜色和样式 */
-/* margin: 10px;  */
-clear: both; 
-}
+  .publication-list dt {
+    position: relative;
+  }
 
-dl dd {
-margin-top: 5px; 
-margin-bottom: 5px;
-}
+  .publication-list dt img {
+    display: block;
+    width: 100%;
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  }
 
-dl dd strong {
-font-weight: bold;
-color: black;
-}
+  .publication-list dd {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 
-.co-first {
-color: red;
-}
+  .publication-list dd strong {
+    font-weight: 700;
+  }
 
-.down {
-transform: rotate(180deg);
-}
+  @media screen and (min-width: 768px) {
+    .publication-list dt img {
+      width: 350px;
+    }
+  }
 
-/* 教育和工作经历卡片样式 */
-.experience-card, .education-card {
-display: flex;
-align-items: center;
-gap: 25px;
-margin-bottom: 30px;
-padding: 20px;
-background: #f8f9fa;
-border-radius: 12px;
-transition: all 0.3s ease;
-border: 1px solid #e9ecef;
-}
+  .news-box {
+    max-height: 350px;
+    margin: 0;
+    padding: 20px;
+    overflow-y: auto;
+    background: var(--homepage-bg);
+    border-left: 4px solid var(--homepage-primary);
+  }
 
-.experience-card:hover, .education-card:hover {
-transform: translateY(-3px);
-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-border-color: #dee2e6;
-}
+  .news-box::-webkit-scrollbar {
+    width: 8px;
+  }
 
-.experience-info, .education-info {
-flex: 1;
-}
+  .news-box::-webkit-scrollbar-track {
+    background: var(--homepage-border);
+    border-radius: 4px;
+  }
 
-.experience-logo, .education-logo {
-flex-shrink: 0;
-width: 100px;
-height: 100px;
-display: flex;
-align-items: center;
-justify-content: center;
-background: white;
-border-radius: 10px;
-padding: 10px;
-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
+  .news-box::-webkit-scrollbar-thumb {
+    background: var(--homepage-primary);
+    border-radius: 4px;
+  }
 
-.experience-logo img, .education-logo img {
-width: 100%;
-height: 100%;
-object-fit: contain;
-}
+  .news-box::-webkit-scrollbar-thumb:hover {
+    background: #1a252f;
+  }
 
-.experience-title, .education-title {
-font-size: 1.2em;
-margin-bottom: 8px;
-color: #2c3e50;
-}
+  .news-box {
+    scrollbar-color: var(--homepage-primary) var(--homepage-border);
+    scrollbar-width: thin;
+  }
 
-.experience-title a, .education-title a {
-color: #2c3e50;
-text-decoration: none;
-transition: color 0.3s ease;
-}
+  .news-list,
+  .content-list,
+  .service-list,
+  .useful-links {
+    padding-left: 0;
+    list-style: none;
+  }
 
-.experience-title a:hover, .education-title a:hover {
-color: #3498db;
-}
+  .news-list {
+    margin: 0;
+  }
 
-.experience-role, .education-role {
-color: #666;
-font-style: italic;
-margin-bottom: 5px;
-}
+  .news-list li {
+    margin-bottom: 0.6em;
+  }
 
-.experience-topics, .education-topics {
-color: #666;
-font-style: italic;
-}
+  .content-list li,
+  .service-list li {
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    background: var(--homepage-bg);
+    border-left: 4px solid var(--homepage-accent);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-.section-title {
-font-size: 1.8em;
-color: #2c3e50;
-margin: 40px 0 20px;
-padding-bottom: 10px;
-border-bottom: 2px solid #ecf0f1;
-}
+  .content-list li:hover,
+  .service-list li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
 
-/* 奖学金和荣誉部分样式 */
-.honors-list {
-list-style: none;
-padding: 0;
-}
+  .content-list li strong,
+  .service-list li strong {
+    color: var(--homepage-primary);
+  }
 
-.honors-list li {
-margin-bottom: 15px;
-padding: 15px 20px;
-background: #f8f9fa;
-border-radius: 8px;
-border-left: 4px solid #3498db;
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+  .content-list li a,
+  .service-list li a,
+  .useful-links li a {
+    color: var(--homepage-accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
 
-.honors-list li:hover {
-transform: translateX(5px);
-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+  .content-list li a:hover,
+  .service-list li a:hover,
+  .useful-links li a:hover {
+    color: #2980b9;
+  }
 
-.honors-list li strong {
-color: #2c3e50;
-}
+  .info-card {
+    margin-bottom: 20px;
+    padding: 18px 20px;
+    background: var(--homepage-bg);
+    border: 1px solid var(--homepage-border);
+    border-left: 4px solid var(--homepage-primary);
+    border-radius: 10px;
+  }
 
-.honors-list li a {
-color: #3498db;
-text-decoration: none;
-transition: color 0.3s ease;
-}
+  .info-card p:last-child,
+  .info-card ul:last-child {
+    margin-bottom: 0;
+  }
 
-.honors-list li a:hover {
-color: #2980b9;
-}
+  .info-card ul {
+    margin-top: 8px;
+  }
 
-/* 服务部分样式 */
-.service-section {
-margin-bottom: 30px;
-}
+  .subsection-title {
+    margin: 24px 0 12px;
+    color: var(--homepage-primary);
+    font-size: 1.25em;
+    font-weight: 700;
+  }
 
-.service-section h3 {
-color: #2c3e50;
-font-size: 1.3em;
-margin: 25px 0 15px;
-padding-bottom: 8px;
-border-bottom: 2px solid #ecf0f1;
-}
+  .education-card,
+  .experience-card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: var(--homepage-bg);
+    border: 1px solid var(--homepage-border);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
 
-.service-list {
-list-style: none;
-padding: 0;
-}
+  .education-card:hover,
+  .experience-card:hover {
+    transform: translateY(-3px);
+    border-color: #dee2e6;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
 
-.service-list li {
-margin-bottom: 12px;
-padding: 12px 15px;
-background: #f8f9fa;
-border-radius: 6px;
-transition: transform 0.3s ease;
-}
+  .education-info,
+  .experience-info {
+    flex: 1;
+  }
 
-.service-list li:hover {
-transform: translateX(5px);
-}
+  .education-logo,
+  .experience-logo {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
 
-.service-list li a {
-color: #3498db;
-text-decoration: none;
-transition: color 0.3s ease;
-}
+  .education-logo img,
+  .experience-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 
-.service-list li a:hover {
-color: #2980b9;
-}
+  .education-title,
+  .experience-title {
+    margin-bottom: 8px;
+    color: var(--homepage-primary);
+    font-size: var(--homepage-body-size);
+  }
+
+  .education-title a,
+  .experience-title a {
+    color: var(--homepage-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .education-title a:hover,
+  .experience-title a:hover {
+    color: var(--homepage-accent);
+  }
+
+  .education-role,
+  .education-topics,
+  .experience-role,
+  .experience-topics {
+    color: var(--homepage-muted);
+    font-style: italic;
+  }
+
+  .education-role,
+  .experience-role {
+    margin-bottom: 5px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .education-card,
+    .experience-card {
+      align-items: flex-start;
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .education-logo,
+    .experience-logo {
+      width: 72px;
+      height: 72px;
+    }
+  }
 </style>
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
+<span class="anchor" id="about-me"></span>
 # About Me
 
 I am currently a faculty member in the School of Computer Science and Artificial Intelligence at Zhengzhou University. I received my Ph.D. degree in Software Engineering from Zhengzhou University in June 2025, under the supervision of <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>.
@@ -282,188 +333,162 @@ I am expected to recruit master’s students in the next admission cycle. Prospe
 
 I also welcome academic discussions and potential collaborations with researchers working in related fields.
 
-Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">here</a>. Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="https://ieqiangguo.github.io/images/wechat.png">WeChat</a>.
-
-<!-- 
-📄 You can download my CV <a href="assets/徐锦峰-CV.pdf" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>.
--->
-
-<!-- 
-<div style="background: linear-gradient(135deg, #f3f8ff, #e8f4fd); padding: 20px; border-radius: 10px; margin: 20px 0; border: 2px solid #1976d2; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;">
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)); pointer-events: none;"></div>
-<p style="margin: 0; position: relative; z-index: 1;"> <strong style="color: red">🌟 📢 PostDoc Opportunity</strong><br>
-I am looking for PostDoc opportunities in 26Fall related to Recommendation and Graph Learning, especially in labs based in the United States/Hong Kong/Singapore. My research interests include Recommendation System, Data Privacy, Graph Learning, Self-supervised Learning, Computer Vision, and Federated Learning. If our research interests align, please feel free to contact me via <a href="mailto:jinfeng@connect.hku.hk">Email</a> or <a href="https://Jinfeng-Xu.github.io/images/WeChat.jpeg">WeChat</a>.
-</p>
-</div>
--->
+Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">here</a>. Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="{{ '/images/wechat.png' | relative_url }}">WeChat</a>.
 
 <hr>
 
 <span class="anchor" id="news"></span>
 # 🔥 News
 
-<div style="max-height: 350px; overflow-y: auto; padding: 20px; background: #f8f9fa; border-left: 4px solid #2c3e50; margin: 0px 0;">
-<style>
-/* 为 Webkit 浏览器（Chrome, Safari, Edge）设置滚动条样式 */
-div::-webkit-scrollbar {
-width: 8px;
-}
-
-div::-webkit-scrollbar-track {
-background: #e9ecef;
-border-radius: 4px;
-}
-
-div::-webkit-scrollbar-thumb {
-background: #2c3e50;
-border-radius: 4px;
-}
-
-div::-webkit-scrollbar-thumb:hover {
-background: #1a252f;
-}
-
-/* 为 Firefox 设置滚动条样式 */
-div {
-scrollbar-width: thin;
-scrollbar-color: #2c3e50 #e9ecef;
-}
-</style>
-
-<ul style="list-style-type: none; padding-left: 0; margin: 0;">
-<li><em>2025.12:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Expert Systems with Applications (ESWA)</strong>. </li>
-<li><em>2025.07:</em> 🎉 One collaborative paper has been accepted by <strong>ACM MM 2025</strong>. Congratulations to <strong>Haichuan Fang</strong>! </li>
-<li><em>2025.05:</em> 🎉 One collaborative paper has been accepted by <strong>Knowledge-Based Systems (KBS)</strong>. Congratulations to <strong>Yiqiang Mao</strong>! </li>
-<li><em>2025.03:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Information Processing & Management (IPM)</strong>. </li>  
-<li><em>2024.12:</em> 🎉 One collaborative paper (co-corresponding author) has been accepted by <strong>IEEE Transactions on Industrial Informatics (TII)</strong>. Congratulations to <strong>Yiqiang Mao</strong>! </li>
-
-<!--
- <li><em>2026.04:</em> 🎉 One conference extension paper on mutlimodal recommendation has been accepted by <strong>ACM Transactions on Recommender Systems (TORS)</strong>. </li>
-<li><em>2026.03:</em> 🎉 One paper supervised by me as the corresponding author has been accepted by <strong>CVPR 2026 (findings)</strong>. Congratulations to <strong>Ge Wang</strong>! </li>
-<li><em>2026.03:</em> 📚️ I serve as a reviewer for <strong>Neural Networks (NEUNET)</strong>. </li>
-<li><em>2026.03:</em> 📚️ I serve as a reviewer for <strong>Expert Systems With Applications (ESWA)</strong>. </li>
-<li><em>2026.03:</em> 📚️ I serve as a reviewer for <strong>ACM MM 2026</strong>. </li>
-<li><em>2026.03:</em> 📚️ I serve as a reviewer for <strong>ECCV 2026</strong>. </li>
-<li><em>2026.03:</em> 📚️ I serve as a reviewer for <strong>IEEE Transactions on Big Data (TBD)</strong>. </li>
-<li><em>2026.02:</em> 🎉 One paper on mutlimodal sequential recommendation has been accepted by <strong>ICDE 2026</strong>. </li>
-<li><em>2026.02:</em> 📚️ I serve as a PC member for <strong>ICMR 2026</strong>. </li>
-<li><em>2026.02:</em> 📚️ I serve as a PC member for <strong>SIGIR 2026</strong>. </li>
-<li><em>2026.01:</em> 📚️ I serve as a reviewer for <strong>KDD 2026 (Cycle 2)</strong>. </li>
-<li><em>2026.01:</em> 🎉 Two collaborative papers have been accepted by <strong>ICLR 2026</strong>. Congratulations to <strong>Jinze Li</strong> and <strong>Jianheng Tang</strong>! </li>
-<li><em>2026.01:</em> 📚️ I serve as a reviewer for <strong>ICML 2026</strong>. </li>
-<li><em>2026.01:</em> 📚️ I serve as a reviewer for <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</strong>. </li>
-<li><em>2025.12:</em> 📚️ I serve as a reviewer for <strong>Information Processing and Management (IPM)</strong>. </li>
-<li><em>2025.12:</em> 🎉 One paper on group recommendation has been accepted by <strong>ACM Transactions on Information Systems (TOIS)</strong>. </li>
-<li><em>2025.11:</em> 📚️ I serve as a reviewer for <strong>Neurocomputing (NEUCOM)</strong>. </li>
-<li><em>2025.11:</em> 📚️ I serve as a reviewer for <strong>Pattern Recognition (PR)</strong>. </li>
-<li><em>2025.11:</em> 🎉 Two papers on universal graph prompt tuning and mutlimodal recommendation have been accepted by <strong>KDD 2026</strong>. </li>
-<li><em>2025.11:</em> 📚️ I serve as a reviewer for <strong>Kwowledge-Based System (KBS)</strong>. </li>
-<li><em>2025.11:</em> 📚️ I serve as a reviewer for <strong>IEEE Wireless Communications (IEEE WCM)</strong>. </li>
-<li><em>2025.11:</em> 📚️ I serve as a reviewer for <strong>WWW 2026 (Full, Short, Web4Good Tracks)</strong>. </li>
-<li><em>2025.11:</em> 🎈 Honored to provide a presentation seminar at Hanyang University. Grateful to <strong>Prof. Sang-Wook Kim</strong> for the invitation! </li>
-<li><em>2025.11:</em> 🎉 One paper on multimodal personalized clustering has been accepted by <strong>AAAI 2026</strong>. </li>
-<li><em>2025.10:</em> 📚️ I serve as a reviewer for <strong>ICLR 2026</strong>. </li>
-<li><em>2025.10:</em> 📚️ I serve as a reviewer for <strong>ACM Transactions on Knowledge Discovery from Data (ACM TKDD)</strong>. </li>
-<li><em>2025.10:</em> 📚️ I serve as a reviewer for <strong>ACM Transactions on Internet Technology (ACM TOIT)</strong>. </li>
-<li><em>2025.10:</em> 🌐 My new personal academic homepage is now online.</li>
-<li><em>2023.09-2025.10:</em> 🎈 I have published more than 10 papers in top-tier conferences and journals as the first author, including 1 KDD, 2 SIGIR, 1 ACM MM, 1 RecSys (Spotlight Oral), 3 CIKM, 1 AAAI, 1 ICASSP, 1 TKDE, 1 TOIS, 1 TMM, and 1 Information Fusion. </li>
-<li><em>2023.09-2025.10:</em> 🎈 I have also contributed as a co-author to many outstanding works, including NDSS, TDSC, KDD, IROS (Oral), etc. </li>
-<li><em>2023.09-2025.10:</em> 📚️ I have served as a reviewer for over 10 top-tier conferences (e.g., ICLR, NeurIPS, KDD, SIGIR, etc.) and 5 top-tier journals (e.g., TKDE, TOIS, TII, TIT, etc.). Additionally, I was honored as an Outstanding Reviewer and invited as a Session Chair at KDD 2025. </li>
--->
-
-</ul>
+<div class="news-box">
+  <ul class="news-list">
+    <li><em>2025.12:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Expert Systems with Applications (ESWA)</strong>.</li>
+    <li><em>2025.07:</em> 🎉 One collaborative paper has been accepted by <strong>ACM MM 2025</strong>. Congratulations to <strong>Haichuan Fang</strong>!</li>
+    <li><em>2025.05:</em> 🎉 One collaborative paper has been accepted by <strong>Knowledge-Based Systems (KBS)</strong>. Congratulations to <strong>Yiqiang Mao</strong>!</li>
+    <li><em>2025.03:</em> 🎉 One paper on knowledge-aware recommendation has been accepted by <strong>Information Processing &amp; Management (IPM)</strong>.</li>
+    <li><em>2024.12:</em> 🎉 One collaborative paper (co-corresponding author) has been accepted by <strong>IEEE Transactions on Industrial Informatics (TII)</strong>. Congratulations to <strong>Yiqiang Mao</strong>!</li>
+  </ul>
 </div>
-<br/>
 
+<br>
 <hr>
 
 <span class="anchor" id="publications"></span>
 # 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
-**# indicates the authors with equal contributions, and * indicates the corresponding authors.**
 
-<dl>
-<!-- <dt><img align="left" width="100"
-hspace="7" wspace="20" src="../images/SG-URInit.png">
-<span class="conference-label">IPM 2025</span>
-</dt> -->
-<dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
-<dd><strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye* </dd>
-<dd>Expert Systems with Applications, 2025. (中科院1区 SCI, IF: 7.5)</dd>
+<p class="publication-note"><strong># indicates the authors with equal contributions, and * indicates the corresponding authors.</strong></p>
+
+<dl class="publication-list">
+  <dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
+  <dd><strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye*</dd>
+  <dd>Expert Systems with Applications, 2025. (中科院1区 SCI, IF: 7.5)</dd>
 </dl>
 
-<dl>
-<!-- <dt><img align="left" width="100"
-hspace="7" wspace="20" src="../images/SG-URInit.png">
-<span class="conference-label">IPM 2025</span>
-</dt> -->
-<dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
-<dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye* </dd>
-<dd>Information Processing & Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
+<dl class="publication-list">
+  <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
+  <dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye*</dd>
+  <dd>Information Processing &amp; Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
 </dl>
 
-<dl>
-<!-- <dt><img align="left" width="100"
-hspace="7" wspace="20" src="../images/SG-URInit.png">
-<span class="conference-label">IPM 2025</span>
-</dt> -->
-<dd><a href="https://link.springer.com/article/10.1007/s40747-024-01427-x"><strong>Consistency-constrained RGB-T crowd counting via mutual information maximization</strong></a></dd>
-<dd><strong>Qiang Guo</strong>, Pengcheng Yuan, Xiangming Huang, Yangdong Ye* </dd>
-<dd>Complex & Intelligent Systems, 2024. (中科院2区 SCI, IF: 5.0)</dd>
+<dl class="publication-list">
+  <dd><a href="https://link.springer.com/article/10.1007/s40747-024-01427-x"><strong>Consistency-constrained RGB-T crowd counting via mutual information maximization</strong></a></dd>
+  <dd><strong>Qiang Guo</strong>, Pengcheng Yuan, Xiangming Huang, Yangdong Ye*</dd>
+  <dd>Complex &amp; Intelligent Systems, 2024. (中科院2区 SCI, IF: 5.0)</dd>
 </dl>
 
-<dl>
-<!-- <dt><img align="left" width="100"
-hspace="7" wspace="20" src="../images/SG-URInit.png">
-<span class="conference-label">IPM 2025</span>
-</dt> -->
-<dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705120308200"><strong>Learning a deep network with cross-hierarchy aggregation for crowd counting</strong></a></dd>
-<dd><strong>Qiang Guo</strong>, Xin Zeng, Shizhe Hu, Sonephet Phoummixay, Yangdong Ye* </dd>
-<dd>Knowledge-Based Systems, 2021. (中科院1区 SCI, IF: 8.1)</dd>
+<dl class="publication-list">
+  <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705120308200"><strong>Learning a deep network with cross-hierarchy aggregation for crowd counting</strong></a></dd>
+  <dd><strong>Qiang Guo</strong>, Xin Zeng, Shizhe Hu, Sonephet Phoummixay, Yangdong Ye*</dd>
+  <dd>Knowledge-Based Systems, 2021. (中科院1区 SCI, IF: 8.1)</dd>
 </dl>
 
 <hr>
 
-<span class="anchor" id="honors-awards"></span>
-# 🎖 Honors & Awards
+<span class="anchor" id="funding"></span>
+# 💰 Funding
 
-- To be updated!
+<ul class="content-list">
+  <li>To be updated.</li>
+</ul>
 
 <hr>
 
-<span class="anchor" id="educations"></span>
-# 📖 Educations
+<span class="anchor" id="honors"></span>
+# 🎖 Honors
+
+<ul class="content-list">
+  <li>To be updated.</li>
+</ul>
+
+<hr>
+
+<span class="anchor" id="education"></span>
+# 📖 Education
 
 <div class="education-card">
-<div class="education-info">
-<div class="education-title">
-<strong>2021.09 - 2025.06:</strong> <br/> Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
-</div>
-</div>
-<div class="education-logo">
-<img src="../images/zzulogo.png" alt="Zhengzhou University" />
-</div>
-</div>
-
-<div class="education-card">
-<div class="education-info">
-<div class="education-title">
-<strong>2018.09 - 2021.06:</strong> <br/> Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
-</div>
-</div>
-<div class="education-logo">
-<img src="../images/zzulogo.png" alt="Zhengzhou University" />
-</div>
+  <div class="education-info">
+    <div class="education-title">
+      <strong>2021.09 - 2025.06:</strong><br>
+      Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
+    </div>
+  </div>
+  <div class="education-logo">
+    <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University">
+  </div>
 </div>
 
 <div class="education-card">
-<div class="education-info">
-<div class="education-title">
-<strong>2010.09 - 2014.06:</strong> <br/> Shenzhen University (BSc), Software Engineering
+  <div class="education-info">
+    <div class="education-title">
+      <strong>2018.09 - 2021.06:</strong><br>
+      Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
+    </div>
+  </div>
+  <div class="education-logo">
+    <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University">
+  </div>
 </div>
+
+<div class="education-card">
+  <div class="education-info">
+    <div class="education-title">
+      <strong>2010.09 - 2014.06:</strong><br>
+      Shenzhen University (BSc), Software Engineering
+    </div>
+  </div>
+  <div class="education-logo">
+    <img src="{{ '/images/szulogo.png' | relative_url }}" alt="Shenzhen University">
+  </div>
 </div>
-<div class="education-logo">
-<img src="../images/szulogo.png" alt="Shenzhen University" />
+
+<hr>
+
+<span class="anchor" id="courses"></span>
+# 👨‍🏫 Courses
+
+<div class="info-card">
+  <p>Teaching information will be updated as courses are finalized.</p>
+  <!-- Example:
+  <ul>
+    <li><strong>Course Name</strong>, Undergraduate/Graduate, Zhengzhou University, Semester.</li>
+  </ul>
+  -->
 </div>
+
+<hr>
+
+<span class="anchor" id="students"></span>
+# 🎓 Students
+
+<div class="info-card">
+  <p>I am expected to recruit master’s students in the next admission cycle. Students interested in recommender systems, multimodal learning, graph representation learning, information bottleneck, and related machine learning topics are welcome to contact me.</p>
+  <p>Please include your CV, transcript, research interests, and any representative projects or publications when contacting me.</p>
+</div>
+
+<hr>
+
+<span class="anchor" id="service"></span>
+# 🤝 Service
+
+<div class="service-section">
+  <h3 class="subsection-title">Reviewer / Program Committee</h3>
+  <ul class="service-list">
+    <li>To be updated.</li>
+  </ul>
+</div>
+
+<div class="service-section">
+  <h3 class="subsection-title">Editorial Service</h3>
+  <ul class="service-list">
+    <li>To be updated.</li>
+  </ul>
+</div>
+
+<div class="service-section">
+  <h3 class="subsection-title">Professional Service</h3>
+  <ul class="service-list">
+    <li>To be updated.</li>
+  </ul>
 </div>
 
 <hr>
@@ -471,9 +496,12 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 <span class="anchor" id="useful-links"></span>
 # 🔗 Useful Links
 
-- **CCF List:** [ccf.atom.im](https://ccf.atom.im/)
-- **CCF Deadlines:** [CCF Deadlines](https://ccfddl.com/)
-- **AI Deadlines:** [AI Conference Deadlines](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)
-- **CSRankings:** [Computer Science Rankings](https://csrankings.org/)
-- **Core Ranking:** [Conference Portal](https://portal.core.edu.au/conf-ranks/)
+<ul class="useful-links">
+  <li><strong>CCF List:</strong> <a href="https://ccf.atom.im/">ccf.atom.im</a></li>
+  <li><strong>CCF Deadlines:</strong> <a href="https://ccfddl.com/">CCF Deadlines</a></li>
+  <li><strong>AI Deadlines:</strong> <a href="https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI">AI Conference Deadlines</a></li>
+  <li><strong>CSRankings:</strong> <a href="https://csrankings.org/">Computer Science Rankings</a></li>
+  <li><strong>Core Ranking:</strong> <a href="https://portal.core.edu.au/conf-ranks/">Conference Portal</a></li>
+</ul>
+
 <hr>
