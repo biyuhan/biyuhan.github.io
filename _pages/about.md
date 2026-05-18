@@ -333,7 +333,9 @@ redirect_from:
 .page__content dd,
 .page__content div,
 .page__content span {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "SimSun", "宋体", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+             Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC",
+             "Source Han Sans SC", sans-serif;
 }
 
 /* 页面主要正文大小：恢复到之前较大的效果 */
@@ -357,7 +359,8 @@ redirect_from:
 :lang(zh),
 .zh,
 .chinese {
-  font-family: "SimSun", "宋体", serif;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC",
+               "Source Han Sans SC", sans-serif;
 }
 
 /* 默认：除 About Me 和 News 外，其余内容保持左对齐 */
@@ -714,12 +717,15 @@ redirect_from:
 .profile_box .author__bio,
 .profile_box .author__urls li,
 .profile_box .author__urls a {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "SimSun", "宋体", sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+             Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC",
+             "Source Han Sans SC", sans-serif;
 }
 
 /* 中文姓名使用宋体 */
 .profile_box .author__name-zh {
-  font-family: "SimSun", "宋体", serif !important;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC",
+               "Source Han Sans SC", sans-serif;
   font-size: 1.25em;
   font-weight: 700;
   letter-spacing: 2px;
@@ -819,6 +825,46 @@ redirect_from:
   .education-title {
     font-size: 0.95em;
     line-height: 1.5;
+  }
+}
+  .page__content {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.about-text p,
+.news-list li,
+.publication-authors,
+.publication-venue,
+.education-title,
+.funding-list li,
+.honors-list li,
+.service-list li,
+.course-list li,
+.students-list li,
+.useful-links li {
+  font-size: 1.08em;
+  line-height: 1.75;
+}
+
+@media screen and (max-width: 768px) {
+  .page__content {
+    font-size: 15.5px;
+  }
+
+  .about-text p,
+  .news-list li,
+  .publication-authors,
+  .publication-venue,
+  .education-title,
+  .funding-list li,
+  .honors-list li,
+  .service-list li,
+  .course-list li,
+  .students-list li,
+  .useful-links li {
+    font-size: 1em;
+    line-height: 1.7;
   }
 }
 </style>
