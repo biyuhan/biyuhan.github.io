@@ -276,9 +276,11 @@ color: #2980b9;
 
 I am a  Ph.D. candidate majoring in Software Engineering at School of Computer Science and Artificial Intelligence, Zhengzhou University. My research interests include data mining and machine learning, with a particular focus on recommender systems, graph representation learning, and information bottleneck. I have published and co-authored some research papers in several top journals and conferences.
 
-<!-- I am currently an PhD Student from the University of Hong Kong. My research interests include Recommendation, Graph Learning, Multimodal Understanding, and Data Privacy.
+<!-- 
+I am currently an PhD Student from the University of Hong Kong. My research interests include Recommendation, Graph Learning, Multimodal Understanding, and Data Privacy.
 
-I have extensive research experience and a strong publication record in multimodal recommendation, collaborative filtering, group recommendation, and graph generalization. I have also explored multimodal understanding and the application of graph-based methods to downstream tasks, with several publications in these areas. Currently, I am actively pursuing new directions in reasoning-aware recommendation, agentic recommendation, and graph for scientific discovery.-->
+I have extensive research experience and a strong publication record in multimodal recommendation, collaborative filtering, group recommendation, and graph generalization. I have also explored multimodal understanding and the application of graph-based methods to downstream tasks, with several publications in these areas. Currently, I am actively pursuing new directions in reasoning-aware recommendation, agentic recommendation, and graph for scientific discovery.
+-->
 
 I look forward to collaborating in the field of Recommendation and Graph Learning.
 
@@ -286,8 +288,9 @@ I am also seeking self-motivated collaborators.
 
 Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="https://ieqiangguo.github.io/images/WeChat.png">WeChat</a>. 
 
-<!-- 📄 You can download my CV <a href="assets/徐锦峰-CV.pdf" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>.
- -->
+<!-- 
+📄 You can download my CV <a href="assets/徐锦峰-CV.pdf" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>.
+-->
 
 <!-- 
 <div style="background: linear-gradient(135deg, #f3f8ff, #e8f4fd); padding: 20px; border-radius: 10px; margin: 20px 0; border: 2px solid #1976d2; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;">
