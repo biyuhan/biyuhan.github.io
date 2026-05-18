@@ -24,7 +24,6 @@
     }
   }
 
-
   @include breakpoint($x-large) {
     padding-right: 0;
   }
@@ -78,6 +77,7 @@
     display: block;
   }
 }
+
 .author__avatar {
   display: table-cell;
   vertical-align: top;
@@ -104,6 +104,7 @@
     }
   }
 }
+
 .author__content {
   display: table-cell;
   vertical-align: top;
@@ -119,6 +120,7 @@
     text-align: center;
   }
 }
+
 .author__name {
   margin: 0;
 
@@ -128,6 +130,15 @@
     text-align: center;
   }
 }
+
+.sidebar .author__name {
+  @include breakpoint($medium) {
+    font-size: $type-size-3;
+  }
+  font-family: $sans-serif;
+  font-size: $type-size-4;
+}
+
 .author__name-zh {
   margin: 0;
 
@@ -137,6 +148,14 @@
     text-align: center;
     white-space: nowrap;
   }
+}
+
+.sidebar .author__name-zh {
+  @include breakpoint($medium) {
+    font-size: $type-size-3;
+  }
+  font-family: $sans-serif;
+  font-size: $type-size-4;
 }
 
 .author__email {
@@ -159,6 +178,7 @@
     }
   }
 }
+
 .author__bio {
   margin: 0;
 
@@ -168,6 +188,7 @@
     text-align: center;
   }
 }
+
 /*
 .profile_box{
   @include breakpoint($large) {
