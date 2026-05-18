@@ -8,8 +8,14 @@ main:
   - title: "Publications"
     url: "/#publications"
 
-  - title: "Honors & Awards"
-    url: "/#honors-awards"
+  - title: "Funding"
+    url: "/#funding"
+    
+  - title: "Honors"
+    url: "/#honors"
+
+  - title: "Services"
+    url: "/#services"
 
   - title: "Educations"
     url: "/#educations"
