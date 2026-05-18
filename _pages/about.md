@@ -320,6 +320,22 @@ redirect_from:
       height: 72px;
     }
   }
+
+/* 正文段落与主要内容两端对齐 */
+.page__content > p,
+.news-list li,
+.publication-list dd,
+.honors-list li,
+.funding-list li,
+.teaching-list li,
+.students-list li,
+.service-list li,
+.useful-links li {
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+}
 </style>
 
 <span class="anchor" id="about-me"></span>
