@@ -286,6 +286,8 @@ I look forward to collaborating in the field of Recommendation and Graph Learnin
 
 I am also seeking self-motivated collaborators.
 
+Official hompage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">here</a>
+
 Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="https://ieqiangguo.github.io/images/wechat.png">WeChat</a>. 
 
 <!-- 
