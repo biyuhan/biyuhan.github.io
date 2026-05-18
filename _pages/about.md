@@ -465,6 +465,9 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 <strong>2010.09 - 2014.06:</strong> <br/> Shenzhen University (BSc), Software Engineering
 </div>
 </div>
+<div class="education-logo">
+<img src="../images/szulogo.png" alt="Shenzhen University" />
+</div>
 </div>
 
 <hr>
