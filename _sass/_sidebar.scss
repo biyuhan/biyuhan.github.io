@@ -149,6 +149,14 @@
   white-space: nowrap;
 }
 
+.sidebar .author__name-zh {
+  @include breakpoint($medium) {
+    font-size: $type-size-3;
+  }
+  font-family: $sans-serif;
+  font-size: $type-size-4;
+}
+
 .author__email {
   margin: 0 0 8px 0;
   text-align: left;
