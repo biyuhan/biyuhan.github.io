@@ -164,7 +164,7 @@
   @include breakpoint($large) {
     margin-top: 8px;
     margin-bottom: 12px;
-    text-align: center;
+    text-align: left;
     line-height: 1.4;
     word-break: break-word;
   }
@@ -185,7 +185,7 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
   }
 }
 
