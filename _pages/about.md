@@ -321,19 +321,288 @@ redirect_from:
     }
   }
 
-/* 正文段落与主要内容两端对齐.. text-justify: inter-word; */
-.page__content > p,
-.news-list li,
-.publication-list dd,
-.honors-list li,
+/* ===============================
+   Text alignment control
+   Only About Me and News are justified
+   =============================== */
+
+/* 默认：所有主要内容保持左对齐 */
+.page__content p,
+.page__content li,
+.page__content dd,
+.publication-card,
+.education-card,
 .funding-list li,
-.teaching-list li,
-.students-list li,
+.honors-list li,
 .service-list li,
+.course-list li,
+.students-list li,
 .useful-links li {
+  text-align: left;
+  text-align-last: auto;
+}
+
+/* 仅 About Me 和 News 使用两端对齐 */
+.about-text p,
+.news-list li {
   text-align: justify;
   text-align-last: left;
+  text-justify: inter-word;
   hyphens: auto;
+}
+
+/* 手机端两端对齐容易产生很大的词间距，因此小屏幕恢复自然左对齐 */
+@media screen and (max-width: 600px) {
+  .about-text p,
+  .news-list li {
+    text-align: left;
+    text-align-last: auto;
+    hyphens: none;
+  }
+}
+
+
+/* ===============================
+   News box
+   =============================== */
+
+.news-box {
+  max-height: 350px;
+  overflow-y: auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-left: 4px solid #2c3e50;
+  margin: 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.news-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.news-list li {
+  margin-bottom: 12px;
+  line-height: 1.65;
+}
+
+.news-list li:last-child {
+  margin-bottom: 0;
+}
+
+.news-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-box::-webkit-scrollbar-track {
+  background: #e9ecef;
+  border-radius: 4px;
+}
+
+.news-box::-webkit-scrollbar-thumb {
+  background: #2c3e50;
+  border-radius: 4px;
+}
+
+.news-box::-webkit-scrollbar-thumb:hover {
+  background: #1a252f;
+}
+
+
+/* ===============================
+   Publication cards
+   Left image + right paper information
+   =============================== */
+
+.publication-list {
+  margin-top: 20px;
+}
+
+.publication-card {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 18px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+  border-color: #dee2e6;
+}
+
+.publication-image {
+  flex: 0 0 230px;
+  max-width: 230px;
+}
+
+.publication-image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.publication-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.publication-title {
+  margin-bottom: 8px;
+  font-size: 1.15em;
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+.publication-title a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.publication-authors,
+.publication-venue {
+  margin-bottom: 6px;
+  line-height: 1.55;
+  color: #444;
+}
+
+.publication-venue {
+  color: #555;
+}
+
+.publication-note {
+  margin: 8px 0 18px;
+  line-height: 1.6;
+}
+
+
+/* ===============================
+   Education cards
+   Left logo + right education information
+   =============================== */
+
+.education-list {
+  margin-top: 20px;
+}
+
+.education-card {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 18px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+  border-color: #dee2e6;
+}
+
+.education-logo {
+  flex: 0 0 110px;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #e9ecef;
+}
+
+.education-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.education-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.education-title {
+  font-size: 1.15em;
+  line-height: 1.55;
+  color: #2c3e50;
+}
+
+
+/* ===============================
+   Responsive layout for mobile devices
+   =============================== */
+
+@media screen and (max-width: 768px) {
+  .news-box {
+    max-height: 300px;
+    padding: 16px;
+  }
+
+  .publication-card,
+  .education-card {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding: 15px;
+  }
+
+  .publication-image {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .publication-image img {
+    aspect-ratio: 16 / 9;
+  }
+
+  .education-logo {
+    width: 90px;
+    height: 90px;
+    flex: none;
+    align-self: center;
+  }
+
+  .publication-title,
+  .education-title {
+    font-size: 1.05em;
+  }
+
+  .publication-authors,
+  .publication-venue,
+  .news-list li {
+    font-size: 1em;
+    line-height: 1.6;
+  }
 }
 </style>
 
