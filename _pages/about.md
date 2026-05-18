@@ -322,11 +322,45 @@ redirect_from:
   }
 
 /* ===============================
-   Text alignment control
-   Only About Me and News are justified
+   Global font and text style
+   English: clean sans-serif
+   Chinese: SimSun
    =============================== */
 
-/* 默认：所有主要内容保持左对齐 */
+.page__content,
+.page__content p,
+.page__content li,
+.page__content dd,
+.page__content div,
+.page__content span {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "SimSun", "宋体", sans-serif;
+}
+
+/* 页面主要正文大小：恢复到之前较大的效果 */
+.page__content > p,
+.about-text p,
+.news-list li,
+.publication-authors,
+.publication-venue,
+.education-title,
+.funding-list li,
+.honors-list li,
+.service-list li,
+.course-list li,
+.students-list li,
+.useful-links li {
+  font-size: 1.2em;
+  line-height: 1.65;
+}
+
+/* 中文内容优先使用宋体 */
+:lang(zh),
+.zh,
+.chinese {
+  font-family: "SimSun", "宋体", serif;
+}
+
+/* 默认：除 About Me 和 News 外，其余内容保持左对齐 */
 .page__content p,
 .page__content li,
 .page__content dd,
@@ -342,7 +376,7 @@ redirect_from:
   text-align-last: auto;
 }
 
-/* 仅 About Me 和 News 使用两端对齐 */
+/* 仅 About Me 和 News 两端对齐 */
 .about-text p,
 .news-list li {
   text-align: justify;
@@ -351,7 +385,7 @@ redirect_from:
   hyphens: auto;
 }
 
-/* 手机端两端对齐容易产生很大的词间距，因此小屏幕恢复自然左对齐 */
+/* 手机端：两端对齐容易拉开词距，恢复自然左对齐 */
 @media screen and (max-width: 600px) {
   .about-text p,
   .news-list li {
@@ -690,9 +724,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
       </div>
     </div>
   </div>
-<dd><a href="https://ieeexplore.ieee.org/abstract/document/10770014"><strong>Multimodal nonredundant clustering via sufficiency complementary mining</strong></a></dd>
-  <dd>Yiqiao Mao, Xiaoqiang Yan, <strong>Qiang Guo*</strong>, Yangdong Ye*</dd>
-  <dd>IEEE Transactions on Industrial Informatics, 2025. (中科院1区 SCI, IF: 11.7)</dd>
+
   <div class="publication-card">
     <div class="publication-image">
       <img src="{{ '/images/publications/dcib.png' | relative_url }}" alt="Multimodal nonredundant clustering via sufficiency complementary mining" loading="lazy">
@@ -752,38 +784,6 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
 </div>
 
-<!--
-<dl class="publication-list">
-  <dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
-  <dd><strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye*</dd>
-  <dd>Expert Systems with Applications, 2025. (中科院1区 SCI, IF: 7.5)</dd>
-</dl>
-
-<dl class="publication-list">
-  <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
-  <dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye*</dd>
-  <dd>Information Processing &amp; Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
-</dl>
-
-<dl class="publication-list">
-  <dd><a href="https://ieeexplore.ieee.org/abstract/document/10770014"><strong>Multimodal nonredundant clustering via sufficiency complementary mining</strong></a></dd>
-  <dd>Yiqiao Mao, Xiaoqiang Yan, <strong>Qiang Guo*</strong>, Yangdong Ye*</dd>
-  <dd>IEEE Transactions on Industrial Informatics, 2025. (中科院1区 SCI, IF: 11.7)</dd>
-</dl>
-
-<dl class="publication-list">
-  <dd><a href="https://link.springer.com/article/10.1007/s40747-024-01427-x"><strong>Consistency-constrained RGB-T crowd counting via mutual information maximization</strong></a></dd>
-  <dd><strong>Qiang Guo</strong>, Pengcheng Yuan, Xiangming Huang, Yangdong Ye*</dd>
-  <dd>Complex &amp; Intelligent Systems, 2024. (中科院2区 SCI, IF: 5.0)</dd>
-</dl>
-
-<dl class="publication-list">
-  <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705120308200"><strong>Learning a deep network with cross-hierarchy aggregation for crowd counting</strong></a></dd>
-  <dd><strong>Qiang Guo</strong>, Xin Zeng, Shizhe Hu, Sonephet Phoummixay, Yangdong Ye*</dd>
-  <dd>Knowledge-Based Systems, 2021. (中科院1区 SCI, IF: 8.1)</dd>
-</dl>
--->
-
 <hr>
 
 <span class="anchor" id="funding"></span>
@@ -835,11 +835,9 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
 <div class="info-card">
   <p>Teaching information will be updated as courses are finalized.</p>
-  <!-- Example:
   <ul>
     <li><strong>Course Name</strong>, Undergraduate/Graduate, Zhengzhou University, Semester.</li>
   </ul>
-  -->
 </div>
 
 <hr>
