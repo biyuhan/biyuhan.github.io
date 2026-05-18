@@ -286,7 +286,7 @@ I look forward to collaborating in the field of Recommendation and Graph Learnin
 
 I am also seeking self-motivated collaborators.
 
-Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="https://ieqiangguo.github.io/images/WeChat.png">WeChat</a>. 
+Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="https://ieqiangguo.github.io/images/wechat.png">WeChat</a>. 
 
 <!-- 
 📄 You can download my CV <a href="assets/徐锦峰-CV.pdf" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>.
