@@ -763,6 +763,64 @@ redirect_from:
   font-family: "Academicons" !important;
   font-weight: normal !important;
 }
+
+  /* ===============================
+   Mobile Education layout fix
+   Keep education logo on the right even on mobile
+   =============================== */
+
+@media screen and (max-width: 768px) {
+  .education-card {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .education-info {
+    order: 1 !important;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .education-logo {
+    order: 2 !important;
+    flex: 0 0 78px;
+    width: 78px;
+    height: 78px;
+    margin-left: 12px !important;
+    align-self: center !important;
+  }
+
+  .education-title {
+    font-size: 1em;
+    line-height: 1.55;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+}
+
+/* 更窄手机屏幕下进一步压缩 logo，避免文字被挤得太厉害 */
+@media screen and (max-width: 420px) {
+  .education-card {
+    gap: 10px;
+    padding: 14px;
+  }
+
+  .education-logo {
+    flex-basis: 64px;
+    width: 64px;
+    height: 64px;
+    padding: 7px;
+    margin-left: 8px !important;
+  }
+
+  .education-title {
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+}
 </style>
 
 <span class="anchor" id="about-me"></span>
