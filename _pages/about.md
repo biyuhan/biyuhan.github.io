@@ -700,6 +700,46 @@ redirect_from:
     order: 2;
   }
 }
+
+/* ===============================
+   Sidebar profile font
+   Keep sidebar font consistent with page content
+   =============================== */
+
+.sidebar,
+.sidebar *,
+.profile_box,
+.profile_box *,
+.author__content,
+.author__content *,
+.author__urls,
+.author__urls *,
+.author__urls_sm,
+.author__urls_sm * {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "SimSun", "宋体", sans-serif;
+}
+
+/* 左侧个人信息整体字号，可按需要微调 */
+.author__name {
+  font-size: 1.35em;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.author__name-zh {
+  font-family: "SimSun", "宋体", serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.author__email,
+.author__bio,
+.author__urls li,
+.author__urls a {
+  font-size: 1.05em;
+  line-height: 1.55;
+}
 </style>
 
 <span class="anchor" id="about-me"></span>
