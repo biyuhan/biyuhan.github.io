@@ -858,40 +858,46 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 <span class="anchor" id="education"></span>
 # 📖 Education
 
-<div class="education-card">
-  <div class="education-info">
-    <div class="education-title">
-      <strong>2021.09 - 2025.06:</strong><br>
-      Zhengzhou University (PhD), Software Engineering supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
-    </div>
-  </div>
-  <div class="education-logo">
-    <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University">
-  </div>
-</div>
+<div class="education-list">
 
-<div class="education-card">
-  <div class="education-info">
-    <div class="education-title">
-      <strong>2018.09 - 2021.06:</strong><br>
-      Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
+  <div class="education-card">
+    <div class="education-logo">
+      <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University" loading="lazy">
+    </div>
+    <div class="education-info">
+      <div class="education-title">
+        <strong>2021.09 - 2025.06:</strong><br>
+        Zhengzhou University, Ph.D. in Software Engineering<br>
+        Supervised by <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>Prof. Yangdong Ye</strong></a>
+      </div>
     </div>
   </div>
-  <div class="education-logo">
-    <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University">
-  </div>
-</div>
 
-<div class="education-card">
-  <div class="education-info">
-    <div class="education-title">
-      <strong>2010.09 - 2014.06:</strong><br>
-      Shenzhen University (BSc), Software Engineering
+  <div class="education-card">
+    <div class="education-logo">
+      <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University" loading="lazy">
+    </div>
+    <div class="education-info">
+      <div class="education-title">
+        <strong>2018.09 - 2021.06:</strong><br>
+        Zhengzhou University, M.Sc. in Computer Science and Technology<br>
+        Supervised by <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>Prof. Yangdong Ye</strong></a>
+      </div>
     </div>
   </div>
-  <div class="education-logo">
-    <img src="{{ '/images/szulogo.png' | relative_url }}" alt="Shenzhen University">
+
+  <div class="education-card">
+    <div class="education-logo">
+      <img src="{{ '/images/szulogo.png' | relative_url }}" alt="Shenzhen University" loading="lazy">
+    </div>
+    <div class="education-info">
+      <div class="education-title">
+        <strong>2010.09 - 2014.06:</strong><br>
+        Shenzhen University, B.Sc. in Software Engineering
+      </div>
+    </div>
   </div>
+
 </div>
 
 <hr>
