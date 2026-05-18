@@ -782,11 +782,6 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
 <p class="publication-note"><strong># indicates the authors with equal contributions, and * indicates the corresponding authors.</strong></p>
 
-<span class="anchor" id="publications"></span>
-# 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
-
-<p class="publication-note"><strong>#</strong> indicates equal contribution, and <strong>*</strong> indicates the corresponding author.</p>
-
 <div class="publication-list">
 
   <div class="publication-card">
