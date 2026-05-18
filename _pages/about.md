@@ -638,6 +638,68 @@ redirect_from:
     line-height: 1.6;
   }
 }
+
+/* ===============================
+   Layout direction adjustment
+   Publications: image left, text right
+   Education: text left, logo right
+   =============================== */
+
+/* Publications：左图右文 */
+.publication-card {
+  flex-direction: row;
+}
+
+.publication-image {
+  order: 1;
+}
+
+.publication-content {
+  order: 2;
+}
+
+/* Education：左文右图 */
+.education-card {
+  flex-direction: row;
+}
+
+.education-info {
+  order: 1;
+}
+
+.education-logo {
+  order: 2;
+  margin-left: auto;
+}
+
+/* 手机端：改为上下排列，更适合窄屏 */
+@media screen and (max-width: 768px) {
+  .publication-card,
+  .education-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .publication-image {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .publication-content {
+    order: 2;
+  }
+
+  .education-logo {
+    order: 1;
+    margin-left: 0;
+    align-self: center;
+  }
+
+  .education-info {
+    order: 2;
+  }
+}
 </style>
 
 <span class="anchor" id="about-me"></span>
