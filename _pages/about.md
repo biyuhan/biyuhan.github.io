@@ -748,7 +748,7 @@ redirect_from:
 /* DBLP / ORCID / Google Scholar 等链接文字 */
 .profile_box .author__urls li,
 .profile_box .author__urls a {
-  font-size: 1.05em;
+  font-size: 1em;
   line-height: 1.55;
 }
 
