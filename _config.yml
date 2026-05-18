@@ -25,10 +25,10 @@ author:
   name_zh          : "郭  强"
   avatar           : "images/bio.jpg"
   bio              : "Zhengzhou University"
+  employer         :
   location         : # "Henan, China"
   email            : "qiangguo@zzu.edu.cn"
   email2           : "ieqguo@gmail.com"
-  employer         :
   dblp             : "https://dblp.uni-trier.de/pid/72/1985-12.html"
   orcid            : "https://orcid.org/0000-0003-0916-6667"
   googlescholar    : "https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en"
@@ -50,7 +50,7 @@ author:
   linkedin         : # e.g., "linkedin username"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : # e.g., http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          : 
