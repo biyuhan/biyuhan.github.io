@@ -358,28 +358,44 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
 <p class="publication-note"><strong># indicates the authors with equal contributions, and * indicates the corresponding authors.</strong></p>
 
-<dl class="publication-list">
-  <dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
-  <dd><strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye*</dd>
-  <dd>Expert Systems with Applications, 2025. (中科院1区 SCI, IF: 7.5)</dd>
+<dl>
+<!-- <dt><img align="left" width="100"
+hspace="7" wspace="20" src="../images/SG-URInit.png">
+<span class="conference-label">IPM 2025</span>
+</dt> -->
+<dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye* </dd>
+<dd>Expert Systems with Applications, 2025. (中科院1区 SCI, IF: 7.5)</dd>
 </dl>
 
-<dl class="publication-list">
-  <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
-  <dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye*</dd>
-  <dd>Information Processing &amp; Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
+<dl>
+<!-- <dt><img align="left" width="100"
+hspace="7" wspace="20" src="../images/SG-URInit.png">
+<span class="conference-label">IPM 2025</span>
+</dt> -->
+<dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X"><strong>DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye* </dd>
+<dd>Information Processing & Management, 2025. (中科院1区 SCI, IF: 7.4)</dd>
 </dl>
 
-<dl class="publication-list">
-  <dd><a href="https://link.springer.com/article/10.1007/s40747-024-01427-x"><strong>Consistency-constrained RGB-T crowd counting via mutual information maximization</strong></a></dd>
-  <dd><strong>Qiang Guo</strong>, Pengcheng Yuan, Xiangming Huang, Yangdong Ye*</dd>
-  <dd>Complex &amp; Intelligent Systems, 2024. (中科院2区 SCI, IF: 5.0)</dd>
+<dl>
+<!-- <dt><img align="left" width="100"
+hspace="7" wspace="20" src="../images/SG-URInit.png">
+<span class="conference-label">IPM 2025</span>
+</dt> -->
+<dd><a href="https://link.springer.com/article/10.1007/s40747-024-01427-x"><strong>Consistency-constrained RGB-T crowd counting via mutual information maximization</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Pengcheng Yuan, Xiangming Huang, Yangdong Ye* </dd>
+<dd>Complex & Intelligent Systems, 2024. (中科院2区 SCI, IF: 5.0)</dd>
 </dl>
 
-<dl class="publication-list">
-  <dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705120308200"><strong>Learning a deep network with cross-hierarchy aggregation for crowd counting</strong></a></dd>
-  <dd><strong>Qiang Guo</strong>, Xin Zeng, Shizhe Hu, Sonephet Phoummixay, Yangdong Ye*</dd>
-  <dd>Knowledge-Based Systems, 2021. (中科院1区 SCI, IF: 8.1)</dd>
+<dl>
+<!-- <dt><img align="left" width="100"
+hspace="7" wspace="20" src="../images/SG-URInit.png">
+<span class="conference-label">IPM 2025</span>
+</dt> -->
+<dd><a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705120308200"><strong>Learning a deep network with cross-hierarchy aggregation for crowd counting</strong></a></dd>
+<dd><strong>Qiang Guo</strong>, Xin Zeng, Shizhe Hu, Sonephet Phoummixay, Yangdong Ye* </dd>
+<dd>Knowledge-Based Systems, 2021. (中科院1区 SCI, IF: 8.1)</dd>
 </dl>
 
 <hr>
@@ -443,32 +459,8 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
 <hr>
 
-<span class="anchor" id="courses"></span>
-# 👨‍🏫 Courses
-
-<div class="info-card">
-  <p>Teaching information will be updated as courses are finalized.</p>
-  <!-- Example:
-  <ul>
-    <li><strong>Course Name</strong>, Undergraduate/Graduate, Zhengzhou University, Semester.</li>
-  </ul>
-  -->
-</div>
-
-<hr>
-
-<span class="anchor" id="students"></span>
-# 🎓 Students
-
-<div class="info-card">
-  <p>I am expected to recruit master’s students in the next admission cycle. Students interested in recommender systems, multimodal learning, graph representation learning, information bottleneck, and related machine learning topics are welcome to contact me.</p>
-  <p>Please include your CV, transcript, research interests, and any representative projects or publications when contacting me.</p>
-</div>
-
-<hr>
-
-<span class="anchor" id="service"></span>
-# 🤝 Service
+<span class="anchor" id="services"></span>
+# 🤝 Services
 
 <div class="service-section">
   <h3 class="subsection-title">Reviewer / Program Committee</h3>
@@ -489,6 +481,30 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
   <ul class="service-list">
     <li>To be updated.</li>
   </ul>
+</div>
+
+<hr>
+
+<span class="anchor" id="courses"></span>
+# 👨‍🏫 Courses
+
+<div class="info-card">
+  <p>Teaching information will be updated as courses are finalized.</p>
+  <!-- Example:
+  <ul>
+    <li><strong>Course Name</strong>, Undergraduate/Graduate, Zhengzhou University, Semester.</li>
+  </ul>
+  -->
+</div>
+
+<hr>
+
+<span class="anchor" id="students"></span>
+# 🎓 Students
+
+<div class="info-card">
+  <p>I am expected to recruit master’s students in the next admission cycle. Students interested in recommender systems, multimodal learning, graph representation learning, information bottleneck, and related machine learning topics are welcome to contact me.</p>
+  <p>Please include your CV, transcript, research interests, and any representative projects or publications when contacting me.</p>
 </div>
 
 <hr>
