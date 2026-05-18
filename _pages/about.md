@@ -321,7 +321,7 @@ redirect_from:
     }
   }
 
-/* 正文段落与主要内容两端对齐 */
+/* 正文段落与主要内容两端对齐.. text-justify: inter-word; */
 .page__content > p,
 .news-list li,
 .publication-list dd,
@@ -333,7 +333,6 @@ redirect_from:
 .useful-links li {
   text-align: justify;
   text-align-last: left;
-  text-justify: inter-word;
   hyphens: auto;
 }
 </style>
@@ -414,7 +413,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 </ul>
 
 <hr>
-
+<!--
 <span class="anchor" id="honors"></span>
 # 🎖 Honors
 
@@ -473,6 +472,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 </div>
 
 <hr>
+-->
 
 <span class="anchor" id="education"></span>
 # 📖 Education
