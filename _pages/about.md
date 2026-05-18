@@ -8,6 +8,7 @@ redirect_from:
 - /about.html
 ---
 
+/* style settings */
 <style>
 dl {
 margin-bottom: 40px; /* 调整这个值以获得合适的间距 */
@@ -47,7 +48,7 @@ background-color: #2c3e50;  /* 深蓝色背景 */
 color: white;  /* 白色文字 */
 padding: 6px 12px;
 border-radius: 6px;
-font-size: 0.95em;
+font-size: 1.2em;   /* 0.95em */
 font-weight: 600;
 letter-spacing: 0.5px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
