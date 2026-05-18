@@ -441,7 +441,7 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 </div>
 </div>
 <div class="education-logo">
-<img src="../images/zzu-logo.png" alt="Zhengzhou University" />
+<img src="../images/zzulogo.png" alt="Zhengzhou University" />
 </div>
 </div>
 
@@ -450,6 +450,9 @@ hspace="7" wspace="20" src="../images/SG-URInit.png">
 <div class="education-title">
 <strong>2018.09 - 2021.06:</strong> <br/> Zhengzhou University (MSc), Computer Science and Technology supervised by <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>
 </div>
+</div>
+<div class="education-logo">
+<img src="../images/zzulogo.png" alt="Zhengzhou University" />
 </div>
 </div>
 
