@@ -609,6 +609,8 @@ redirect_from:
 <span class="anchor" id="about-me"></span>
 # About Me
 
+<div class="about-text" markdown="1">
+  
 I am currently a faculty member in the School of Computer Science and Artificial Intelligence at Zhengzhou University. I received my Ph.D. degree in Software Engineering from Zhengzhou University in June 2025, under the supervision of <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>.
 
 My research interests lie broadly in data mining and machine learning, with a particular focus on recommender systems, multimodal learning, information bottleneck, and graph representation learning. My research aims to develop effective, robust, and interpretable learning methods for recommendation and graph-based data analysis. I have published and co-authored several papers in peer-reviewed journals and conferences in related areas.
@@ -618,6 +620,8 @@ I am expected to recruit master’s students in the next admission cycle. Prospe
 I also welcome academic discussions and potential collaborations with researchers working in related fields.
 
 Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">here</a>. Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a> or <a href="{{ '/images/wechat.png' | relative_url }}">WeChat</a>.
+
+</div>
 
 <hr>
 
@@ -642,6 +646,113 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
 <p class="publication-note"><strong># indicates the authors with equal contributions, and * indicates the corresponding authors.</strong></p>
 
+<span class="anchor" id="publications"></span>
+# 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
+
+<p class="publication-note"><strong>#</strong> indicates equal contribution, and <strong>*</strong> indicates the corresponding author.</p>
+
+<div class="publication-list">
+
+  <div class="publication-card">
+    <div class="publication-image">
+      <img src="{{ '/images/publications/krib.png' | relative_url }}" alt="Knowledge-refined information bottleneck for contrastive recommendation" loading="lazy">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912" target="_blank" rel="noopener">
+          Knowledge-refined information bottleneck for contrastive recommendation
+        </a>
+      </div>
+      <div class="publication-authors">
+        <strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye*
+      </div>
+      <div class="publication-venue">
+        Expert Systems with Applications, 2025. (中科院 1 区 SCI, IF: 7.5)
+      </div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-image">
+      <img src="{{ '/images/publications/dcib.png' | relative_url }}" alt="DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation" loading="lazy">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S030645732400339X" target="_blank" rel="noopener">
+          DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation
+        </a>
+      </div>
+      <div class="publication-authors">
+        <strong>Qiang Guo</strong>, Jialong Hai, Zhongchuan Sun, Bin Wu, Yangdong Ye*
+      </div>
+      <div class="publication-venue">
+        Information Processing &amp; Management, 2025. (中科院 1 区 SCI, IF: 7.4)
+      </div>
+    </div>
+  </div>
+<dd><a href="https://ieeexplore.ieee.org/abstract/document/10770014"><strong>Multimodal nonredundant clustering via sufficiency complementary mining</strong></a></dd>
+  <dd>Yiqiao Mao, Xiaoqiang Yan, <strong>Qiang Guo*</strong>, Yangdong Ye*</dd>
+  <dd>IEEE Transactions on Industrial Informatics, 2025. (中科院1区 SCI, IF: 11.7)</dd>
+  <div class="publication-card">
+    <div class="publication-image">
+      <img src="{{ '/images/publications/dcib.png' | relative_url }}" alt="Multimodal nonredundant clustering via sufficiency complementary mining" loading="lazy">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10770014" target="_blank" rel="noopener">
+          Multimodal nonredundant clustering via sufficiency complementary mining
+        </a>
+      </div>
+      <div class="publication-authors">
+        Yiqiao Mao, Xiaoqiang Yan, <strong>Qiang Guo*</strong>, Yangdong Ye*
+      </div>
+      <div class="publication-venue">
+        IEEE Transactions on Industrial Informatics, 2025. (中科院1区 SCI, IF: 11.7)
+      </div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-image">
+      <img src="{{ '/images/publications/rgbt-crowd.png' | relative_url }}" alt="Consistency-constrained RGB-T crowd counting via mutual information maximization" loading="lazy">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://link.springer.com/article/10.1007/s40747-024-01427-x" target="_blank" rel="noopener">
+          Consistency-constrained RGB-T crowd counting via mutual information maximization
+        </a>
+      </div>
+      <div class="publication-authors">
+        <strong>Qiang Guo</strong>, Pengcheng Yuan, Xiangming Huang, Yangdong Ye*
+      </div>
+      <div class="publication-venue">
+        Complex &amp; Intelligent Systems, 2024. (中科院 2 区 SCI, IF: 5.0)
+      </div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-image">
+      <img src="{{ '/images/publications/cross-hierarchy.png' | relative_url }}" alt="Learning a deep network with cross-hierarchy aggregation for crowd counting" loading="lazy">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705120308200" target="_blank" rel="noopener">
+          Learning a deep network with cross-hierarchy aggregation for crowd counting
+        </a>
+      </div>
+      <div class="publication-authors">
+        <strong>Qiang Guo</strong>, Xin Zeng, Shizhe Hu, Sonephet Phoummixay, Yangdong Ye*
+      </div>
+      <div class="publication-venue">
+        Knowledge-Based Systems, 2021. (中科院 1 区 SCI, IF: 8.1)
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--
 <dl class="publication-list">
   <dd><a href="https://www.sciencedirect.com/science/article/pii/S0957417425022912"><strong>Knowledge-refined information bottleneck for contrastive recommendation</strong></a></dd>
   <dd><strong>Qiang Guo</strong>, Bin Wu, Zhongchuan Sun, Haichuan Fang, Yangdong Ye*</dd>
@@ -671,6 +782,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
   <dd><strong>Qiang Guo</strong>, Xin Zeng, Shizhe Hu, Sonephet Phoummixay, Yangdong Ye*</dd>
   <dd>Knowledge-Based Systems, 2021. (中科院1区 SCI, IF: 8.1)</dd>
 </dl>
+-->
 
 <hr>
 
