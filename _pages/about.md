@@ -921,9 +921,6 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 <div class="education-list">
 
   <div class="education-card">
-    <div class="education-logo">
-      <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University" loading="lazy">
-    </div>
     <div class="education-info">
       <div class="education-title">
         <strong>2021.09 - 2025.06:</strong><br>
@@ -931,12 +928,13 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
         Supervised by <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>Prof. Yangdong Ye</strong></a>
       </div>
     </div>
-  </div>
 
-  <div class="education-card">
     <div class="education-logo">
       <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University" loading="lazy">
     </div>
+  </div>
+
+  <div class="education-card">
     <div class="education-info">
       <div class="education-title">
         <strong>2018.09 - 2021.06:</strong><br>
@@ -944,17 +942,22 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
         Supervised by <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>Prof. Yangdong Ye</strong></a>
       </div>
     </div>
+  
+    <div class="education-logo">
+      <img src="{{ '/images/zzulogo.png' | relative_url }}" alt="Zhengzhou University" loading="lazy">
+    </div>
   </div>
 
   <div class="education-card">
-    <div class="education-logo">
-      <img src="{{ '/images/szulogo.png' | relative_url }}" alt="Shenzhen University" loading="lazy">
-    </div>
     <div class="education-info">
       <div class="education-title">
         <strong>2010.09 - 2014.06:</strong><br>
         Shenzhen University, B.Sc. in Software Engineering
       </div>
+    </div>
+  
+    <div class="education-logo">
+      <img src="{{ '/images/szulogo.png' | relative_url }}" alt="Shenzhen University" loading="lazy">
     </div>
   </div>
 
