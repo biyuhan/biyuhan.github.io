@@ -10,12 +10,16 @@ redirect_from:
 
 <style>
   /* =========================================================
-     1. Global design variables
-     修改字体、字号、颜色、卡片间距时，优先调整这里的变量。
+     01. Global variables
+     全局变量：字体、颜色、字号、行距、间距、图片与 logo 尺寸。
+     后续微调页面样式时，优先修改本区变量。
      ========================================================= */
   :root {
+    /* Font family / 字体 */
     --homepage-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
       "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+
+    /* Colors / 颜色 */
     --homepage-text: #333;
     --homepage-primary: #2c3e50;
     --homepage-link: #0066cc;
@@ -24,20 +28,79 @@ redirect_from:
     --homepage-accent: #3498db;
     --homepage-card-hover-border: #dee2e6;
 
-    /* 正文字号：电脑端正文调整为接近手机端的舒适大小 */
+    /* Desktop typography / 电脑端默认字号与行距 */
     --homepage-content-size: 16px;
-    --homepage-body-size: 1.08em;
-    --homepage-mobile-content-size: 15.5px;
-    --homepage-mobile-body-size: 0.95em;
+    --homepage-body-size: 1em;
+    --homepage-line-height: 1.55;
+    --homepage-paragraph-gap: 0.7em;
 
-    /* 常用间距和圆角 */
-    --homepage-card-radius: 12px;
+    /* Cards / 卡片尺寸 */
     --homepage-card-gap: 22px;
+    --homepage-card-padding: 18px;
+    --homepage-card-radius: 12px;
+    --homepage-card-margin: 20px;
+
+    /* Section-specific sizes / 模块专用尺寸 */
+    --homepage-news-max-height: 350px;
+    --homepage-news-padding: 20px;
+    --publication-image-width: 230px;
+    --education-logo-size: 110px;
   }
 
   /* =========================================================
-     2. Base page styles
-     页面全局字体、背景、链接、分割线等基础样式。
+     02. Tablet variables
+     平板端：略微压缩字体、卡片间距、图片和 logo 尺寸。
+     ========================================================= */
+  @media screen and (max-width: 1024px) {
+    :root {
+      --homepage-content-size: 15.8px;
+      --homepage-body-size: 1em;
+      --homepage-line-height: 1.53;
+      --homepage-paragraph-gap: 0.65em;
+      --homepage-card-gap: 18px;
+      --homepage-card-padding: 16px;
+      --publication-image-width: 210px;
+      --education-logo-size: 90px;
+    }
+  }
+
+  /* =========================================================
+     03. Mobile variables
+     手机端：字体略小、行距适中、卡片更紧凑。
+     ========================================================= */
+  @media screen and (max-width: 768px) {
+    :root {
+      --homepage-content-size: 15.5px;
+      --homepage-body-size: 1em;
+      --homepage-line-height: 1.5;
+      --homepage-paragraph-gap: 0.6em;
+      --homepage-card-gap: 14px;
+      --homepage-card-padding: 15px;
+      --homepage-news-max-height: 300px;
+      --homepage-news-padding: 16px;
+      --publication-image-width: 100%;
+      --education-logo-size: 78px;
+    }
+  }
+
+  /* =========================================================
+     04. Small mobile variables
+     小屏手机：进一步压缩间距与 logo，避免文字被挤压。
+     ========================================================= */
+  @media screen and (max-width: 420px) {
+    :root {
+      --homepage-content-size: 15px;
+      --homepage-line-height: 1.48;
+      --homepage-paragraph-gap: 0.55em;
+      --homepage-card-gap: 10px;
+      --homepage-card-padding: 14px;
+      --education-logo-size: 64px;
+    }
+  }
+
+  /* =========================================================
+     05. Base page styles
+     页面基础样式：字体、背景、链接、分割线。
      ========================================================= */
   body {
     color: var(--homepage-text);
@@ -87,10 +150,10 @@ redirect_from:
 
   .page__content {
     font-size: var(--homepage-content-size);
-    line-height: 1.55;
+    line-height: var(--homepage-line-height);
   }
 
-  /* 标题和顶部导航也使用与正文一致的系统字体风格。 */
+  /* 标题和顶部导航：与正文保持同一字体风格。 */
   .page__content h1,
   .page__content h2,
   .page__content h3 {
@@ -107,8 +170,8 @@ redirect_from:
   }
 
   /* =========================================================
-     3. Unified body text size
-     同级正文统一字号：About、News、论文作者/期刊、Funding、Education、Links 等。
+     06. Text size and alignment
+     同级正文统一字号；仅 About Me 和 News 在电脑端两端对齐。
      ========================================================= */
   .about-text p,
   .news-list li,
@@ -117,23 +180,22 @@ redirect_from:
   .publication-venue,
   .content-list li,
   .service-list li,
+  .course-list li,
+  .students-list li,
   .info-card,
   .info-card p,
   .info-card li,
   .education-title,
   .useful-links li {
     font-size: var(--homepage-body-size);
-    line-height: 1.55;
+    line-height: var(--homepage-line-height);
   }
 
   .about-text p {
-    margin-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: var(--homepage-paragraph-gap);
   }
 
-  /* =========================================================
-     4. Text alignment
-     仅 About Me 和 News 在电脑端两端对齐；其他模块保持左对齐。
-     ========================================================= */
   .page__content p,
   .page__content li,
   .page__content dd,
@@ -141,6 +203,8 @@ redirect_from:
   .education-card,
   .content-list li,
   .service-list li,
+  .course-list li,
+  .students-list li,
   .info-card,
   .useful-links li {
     text-align: left;
@@ -155,283 +219,17 @@ redirect_from:
     hyphens: auto;
   }
 
-  /* =========================================================
-     5. News section
-     News 滚动框及其滚动条样式。
-     ========================================================= */
-  .news-box {
-    max-height: 350px;
-    margin: 0;
-    padding: 20px;
-    overflow-y: auto;
-    background: var(--homepage-bg);
-    border-left: 4px solid var(--homepage-primary);
-    border-radius: 0 8px 8px 0;
-    scrollbar-color: var(--homepage-primary) var(--homepage-border);
-    scrollbar-width: thin;
-  }
-
-  .news-box::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  .news-box::-webkit-scrollbar-track {
-    background: var(--homepage-border);
-    border-radius: 4px;
-  }
-
-  .news-box::-webkit-scrollbar-thumb {
-    background: var(--homepage-primary);
-    border-radius: 4px;
-  }
-
-  .news-box::-webkit-scrollbar-thumb:hover {
-    background: #1a252f;
-  }
-
-  .news-list,
-  .content-list,
-  .service-list,
-  .useful-links {
-    padding-left: 0;
-    list-style: none;
-  }
-
-  .news-list {
-    margin: 0;
-  }
-
-  .news-list li {
-    margin-bottom: 12px;
-  }
-
-  .news-list li:last-child {
-    margin-bottom: 0;
+  @media screen and (max-width: 768px) {
+    .about-text p,
+    .news-list li {
+      text-align: left;
+      text-align-last: auto;
+      hyphens: none;
+    }
   }
 
   /* =========================================================
-     6. Publication cards
-     电脑端：左图右文；手机端：图片在上、文字在下。
-     ========================================================= */
-  .publication-list {
-    margin-top: 20px;
-    margin-bottom: 40px;
-  }
-
-  .publication-note {
-    margin: 8px 0 18px;
-  }
-
-  .publication-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: var(--homepage-card-gap);
-    box-sizing: border-box;
-    width: 100%;
-    margin: 20px 0;
-    padding: 18px;
-    background: var(--homepage-bg);
-    border: 1px solid var(--homepage-border);
-    border-radius: var(--homepage-card-radius);
-    transition: all 0.25s ease;
-  }
-
-  .publication-card:hover {
-    transform: translateY(-3px);
-    border-color: var(--homepage-card-hover-border);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  }
-
-  .publication-image {
-    flex: 0 0 230px;
-    order: 1;
-    max-width: 230px;
-  }
-
-  .publication-image img {
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 5px;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-  }
-
-  .publication-content {
-    flex: 1;
-    order: 2;
-    min-width: 0;
-  }
-
-  .publication-title {
-    margin-bottom: 8px;
-    font-size: 1.15em;
-    font-weight: 700;
-    line-height: 1.45;
-  }
-
-  .publication-title a {
-    color: var(--homepage-primary);
-    text-decoration: none;
-  }
-
-  .publication-title a:hover {
-    color: var(--homepage-link);
-    text-decoration: underline;
-  }
-
-  .publication-authors,
-  .publication-venue {
-    margin-bottom: 6px;
-    color: #444;
-  }
-
-  .publication-venue {
-    color: #555;
-  }
-
-  /* =========================================================
-     7. Content lists and information cards
-     Funding、Honors、Services、Courses、Students 等模块共用样式。
-     ========================================================= */
-  .content-list li,
-  .service-list li {
-    margin-bottom: 15px;
-    padding: 15px 20px;
-    background: var(--homepage-bg);
-    border-left: 4px solid var(--homepage-accent);
-    border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .content-list li:hover,
-  .service-list li:hover {
-    transform: translateX(5px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .content-list li strong,
-  .service-list li strong {
-    color: var(--homepage-primary);
-  }
-
-  .content-list li a,
-  .service-list li a,
-  .useful-links li a {
-    color: var(--homepage-accent);
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-
-  .content-list li a:hover,
-  .service-list li a:hover,
-  .useful-links li a:hover {
-    color: #2980b9;
-  }
-
-  .info-card {
-    margin-bottom: 20px;
-    padding: 18px 20px;
-    background: var(--homepage-bg);
-    border: 1px solid var(--homepage-border);
-    border-left: 4px solid var(--homepage-primary);
-    border-radius: 10px;
-  }
-
-  .info-card p:last-child,
-  .info-card ul:last-child {
-    margin-bottom: 0;
-  }
-
-  .info-card ul {
-    margin-top: 8px;
-  }
-
-  .subsection-title {
-    margin: 24px 0 12px;
-    color: var(--homepage-primary);
-    font-size: 1.25em;
-    font-weight: 700;
-  }
-
-  /* =========================================================
-     8. Education cards
-     电脑端和手机端均保持：左文右 logo。
-     ========================================================= */
-  .education-list {
-    margin-top: 20px;
-  }
-
-  .education-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: var(--homepage-card-gap);
-    box-sizing: border-box;
-    width: 100%;
-    margin: 20px 0;
-    padding: 18px;
-    background: var(--homepage-bg);
-    border: 1px solid var(--homepage-border);
-    border-radius: var(--homepage-card-radius);
-    transition: all 0.25s ease;
-  }
-
-  .education-card:hover {
-    transform: translateY(-3px);
-    border-color: var(--homepage-card-hover-border);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  }
-
-  .education-info {
-    flex: 1 1 auto;
-    order: 1;
-    min-width: 0;
-  }
-
-  .education-logo {
-    display: flex;
-    flex: 0 0 110px;
-    order: 2;
-    align-items: center;
-    justify-content: center;
-    width: 110px;
-    height: 110px;
-    margin-left: auto;
-    padding: 10px;
-    background: #fff;
-    border: 1px solid var(--homepage-border);
-    border-radius: 10px;
-    box-sizing: border-box;
-  }
-
-  .education-logo img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  .education-title {
-    color: var(--homepage-primary);
-  }
-
-  .education-title a {
-    color: var(--homepage-primary);
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-
-  .education-title a:hover {
-    color: var(--homepage-accent);
-  }
-
-  /* =========================================================
-     9. Sidebar profile
+     07. Sidebar profile
      左侧个人信息字体。注意：不要覆盖图标字体。
      ========================================================= */
   .profile_box .author__name {
@@ -473,47 +271,150 @@ redirect_from:
   }
 
   /* =========================================================
-     10. Responsive styles
-     移动端布局与字号：论文卡片上下排列，教育卡片仍为左文右图。
+     08. News section
+     News 滚动框及滚动条样式。
      ========================================================= */
+  .news-box {
+    max-height: var(--homepage-news-max-height);
+    margin: 0;
+    padding: var(--homepage-news-padding);
+    overflow-y: auto;
+    background: var(--homepage-bg);
+    border-left: 4px solid var(--homepage-primary);
+    border-radius: 0 8px 8px 0;
+    scrollbar-color: var(--homepage-primary) var(--homepage-border);
+    scrollbar-width: thin;
+  }
+
+  .news-box::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .news-box::-webkit-scrollbar-track {
+    background: var(--homepage-border);
+    border-radius: 4px;
+  }
+
+  .news-box::-webkit-scrollbar-thumb {
+    background: var(--homepage-primary);
+    border-radius: 4px;
+  }
+
+  .news-box::-webkit-scrollbar-thumb:hover {
+    background: #1a252f;
+  }
+
+  .news-list,
+  .content-list,
+  .service-list,
+  .course-list,
+  .students-list,
+  .useful-links {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .news-list {
+    margin: 0;
+  }
+
+  .news-list li {
+    margin-bottom: 0.45em;
+  }
+
+  .news-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* =========================================================
+     09. Publication cards
+     电脑/平板端：左图右文；手机端：图片在上、文字在下。
+     ========================================================= */
+  .publication-list {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .publication-note {
+    margin: 8px 0 18px;
+  }
+
+  .publication-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--homepage-card-gap);
+    box-sizing: border-box;
+    width: 100%;
+    margin: var(--homepage-card-margin) 0;
+    padding: var(--homepage-card-padding);
+    background: var(--homepage-bg);
+    border: 1px solid var(--homepage-border);
+    border-radius: var(--homepage-card-radius);
+    transition: all 0.25s ease;
+  }
+
+  .publication-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--homepage-card-hover-border);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .publication-image {
+    flex: 0 0 var(--publication-image-width);
+    order: 1;
+    max-width: var(--publication-image-width);
+  }
+
+  .publication-image img {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .publication-content {
+    flex: 1;
+    order: 2;
+    min-width: 0;
+  }
+
+  .publication-title {
+    margin-bottom: 6px;
+    font-size: 1.15em;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .publication-title a {
+    color: var(--homepage-primary);
+    text-decoration: none;
+  }
+
+  .publication-title a:hover {
+    color: var(--homepage-link);
+    text-decoration: underline;
+  }
+
+  .publication-authors,
+  .publication-venue {
+    margin-bottom: 4px;
+    color: #444;
+  }
+
+  .publication-venue {
+    color: #555;
+  }
+
   @media screen and (max-width: 768px) {
-    .page__content {
-      font-size: var(--homepage-mobile-content-size);
-    }
-
-    .about-text p,
-    .news-list li,
-    .publication-note,
-    .publication-authors,
-    .publication-venue,
-    .content-list li,
-    .service-list li,
-    .info-card,
-    .info-card p,
-    .info-card li,
-    .education-title,
-    .useful-links li {
-      font-size: var(--homepage-mobile-body-size);
-      line-height: 1.55;
-    }
-
-    .about-text p,
-    .news-list li {
-      text-align: left;
-      text-align-last: auto;
-      hyphens: none;
-    }
-
-    .news-box {
-      max-height: 300px;
-      padding: 16px;
-    }
-
     .publication-card {
       flex-direction: column;
       align-items: stretch;
-      gap: 14px;
-      padding: 15px;
     }
 
     .publication-image {
@@ -521,45 +422,219 @@ redirect_from:
       width: 100%;
       max-width: 100%;
     }
+  }
 
-    .publication-image img {
-      aspect-ratio: 16 / 9;
-    }
+  /* =========================================================
+     10. Content lists and information cards
+     Funding、Honors、Services、Courses、Students 等模块共用样式。
+     ========================================================= */
+  .content-list li,
+  .service-list li,
+  .course-list li,
+  .students-list li {
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    background: var(--homepage-bg);
+    border-left: 4px solid var(--homepage-accent);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-    .education-card {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      padding: 16px;
-    }
+  .content-list li:hover,
+  .service-list li:hover,
+  .course-list li:hover,
+  .students-list li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
 
+  .content-list li strong,
+  .service-list li strong,
+  .course-list li strong,
+  .students-list li strong {
+    color: var(--homepage-primary);
+  }
+
+  .content-list li a,
+  .service-list li a,
+  .course-list li a,
+  .students-list li a,
+  .useful-links li a {
+    color: var(--homepage-accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .content-list li a:hover,
+  .service-list li a:hover,
+  .course-list li a:hover,
+  .students-list li a:hover,
+  .useful-links li a:hover {
+    color: #2980b9;
+  }
+
+  .info-card {
+    margin-bottom: 20px;
+    padding: 18px 20px;
+    background: var(--homepage-bg);
+    border: 1px solid var(--homepage-border);
+    border-left: 4px solid var(--homepage-primary);
+    border-radius: 10px;
+  }
+
+  .info-card p:last-child,
+  .info-card ul:last-child {
+    margin-bottom: 0;
+  }
+
+  .info-card ul {
+    margin-top: 8px;
+  }
+
+  .subsection-title {
+    margin: 24px 0 12px;
+    color: var(--homepage-primary);
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+
+  /* =========================================================
+     11. Education cards
+     电脑、平板、手机均保持：左文右 logo。
+     ========================================================= */
+  .education-list {
+    margin-top: 20px;
+  }
+
+  .education-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--homepage-card-gap);
+    box-sizing: border-box;
+    width: 100%;
+    margin: var(--homepage-card-margin) 0;
+    padding: var(--homepage-card-padding);
+    background: var(--homepage-bg);
+    border: 1px solid var(--homepage-border);
+    border-radius: var(--homepage-card-radius);
+    transition: all 0.25s ease;
+  }
+
+  .education-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--homepage-card-hover-border);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .education-info {
+    flex: 1 1 auto;
+    order: 1;
+    min-width: 0;
+  }
+
+  .education-logo {
+    display: flex;
+    flex: 0 0 var(--education-logo-size);
+    order: 2;
+    align-items: center;
+    justify-content: center;
+    width: var(--education-logo-size);
+    height: var(--education-logo-size);
+    margin-left: auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid var(--homepage-border);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  .education-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .education-title {
+    color: var(--homepage-primary);
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .education-title a {
+    color: var(--homepage-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .education-title a:hover {
+    color: var(--homepage-accent);
+  }
+
+  @media screen and (max-width: 768px) {
     .education-logo {
-      flex: 0 0 78px;
-      width: 78px;
-      height: 78px;
       margin-left: 12px;
-      align-self: center;
-    }
-
-    .education-title {
-      word-break: normal;
-      overflow-wrap: break-word;
+      padding: 8px;
     }
   }
 
   @media screen and (max-width: 420px) {
-    .education-card {
-      gap: 10px;
-      padding: 14px;
-    }
-
     .education-logo {
-      flex-basis: 64px;
-      width: 64px;
-      height: 64px;
       margin-left: 8px;
       padding: 7px;
+    }
+  }
+
+  /* =========================================================
+     12. Touch device optimization
+     触摸屏设备取消 hover 位移动画，避免手机和平板上出现不自然效果。
+     ========================================================= */
+  @media (hover: none) {
+    .publication-card:hover,
+    .education-card:hover,
+    .content-list li:hover,
+    .service-list li:hover,
+    .course-list li:hover,
+    .students-list li:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+
+  /* =========================================================
+     13. Print styles
+     打印页面时隐藏导航和侧边栏，保留正文内容。
+     ========================================================= */
+  @media print {
+    body {
+      color: #000;
+      background: #fff !important;
+    }
+
+    .masthead,
+    .sidebar {
+      display: none !important;
+    }
+
+    .page__content {
+      font-size: 11pt;
+      line-height: 1.4;
+    }
+
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    .publication-card,
+    .education-card,
+    .content-list li,
+    .service-list li,
+    .info-card {
+      break-inside: avoid;
+      box-shadow: none;
     }
   }
 </style>
