@@ -1,6 +1,6 @@
 name: Get Citation Data
 
-"off":
+"on":
   workflow_dispatch:
   push:
     branches:
