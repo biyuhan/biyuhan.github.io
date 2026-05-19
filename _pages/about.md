@@ -31,7 +31,7 @@ redirect_from:
     /* Desktop typography / 电脑端默认字号与行距 */
     --homepage-content-size: 16px;
     --homepage-body-size: 1em;
-    --homepage-line-height: 1.55;
+    --homepage-line-height: 1.5;
     --homepage-paragraph-gap: 0.7em;
 
     /* Cards / 卡片尺寸 */
@@ -55,7 +55,7 @@ redirect_from:
     :root {
       --homepage-content-size: 15.8px;
       --homepage-body-size: 1em;
-      --homepage-line-height: 1.53;
+      --homepage-line-height: 1.48;
       --homepage-paragraph-gap: 0.65em;
       --homepage-card-gap: 18px;
       --homepage-card-padding: 16px;
@@ -72,7 +72,7 @@ redirect_from:
     :root {
       --homepage-content-size: 15.5px;
       --homepage-body-size: 1em;
-      --homepage-line-height: 1.5;
+      --homepage-line-height: 1.45;
       --homepage-paragraph-gap: 0.6em;
       --homepage-card-gap: 14px;
       --homepage-card-padding: 15px;
@@ -90,7 +90,7 @@ redirect_from:
   @media screen and (max-width: 420px) {
     :root {
       --homepage-content-size: 15px;
-      --homepage-line-height: 1.48;
+      --homepage-line-height: 1.42;
       --homepage-paragraph-gap: 0.55em;
       --homepage-card-gap: 10px;
       --homepage-card-padding: 14px;
