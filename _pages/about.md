@@ -24,11 +24,11 @@ redirect_from:
     --homepage-accent: #3498db;
     --homepage-card-hover-border: #dee2e6;
 
-    /* 正文字号：同等级正文统一使用这个字号 */
+    /* 正文字号：电脑端正文调整为接近手机端的舒适大小 */
     --homepage-content-size: 16px;
     --homepage-body-size: 1.08em;
     --homepage-mobile-content-size: 15.5px;
-    --homepage-mobile-body-size: 1em;
+    --homepage-mobile-body-size: 0.95em;
 
     /* 常用间距和圆角 */
     --homepage-card-radius: 12px;
@@ -41,6 +41,7 @@ redirect_from:
      ========================================================= */
   body {
     color: var(--homepage-text);
+    font-family: var(--homepage-font);
     background-image: url("{{ '/images/bg.jpg' | relative_url }}");
     background-attachment: fixed;
     background-position: center;
@@ -66,9 +67,17 @@ redirect_from:
   .page__content dd,
   .page__content div,
   .page__content span,
+  .page__content h1,
+  .page__content h2,
+  .page__content h3,
+  .masthead,
+  .greedy-nav,
+  .masthead__menu-item a,
+  .greedy-nav a,
   .profile_box,
   .profile_box .author__content,
   .profile_box .author__name,
+  .profile_box .author__name-zh,
   .profile_box .author__email,
   .profile_box .author__bio,
   .profile_box .author__urls li,
@@ -79,6 +88,22 @@ redirect_from:
   .page__content {
     font-size: var(--homepage-content-size);
     line-height: 1.75;
+  }
+
+  /* 标题和顶部导航也使用与正文一致的系统字体风格。 */
+  .page__content h1,
+  .page__content h2,
+  .page__content h3 {
+    font-family: var(--homepage-font);
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  .masthead__menu-item a,
+  .greedy-nav a {
+    font-family: var(--homepage-font);
+    font-weight: 600;
+    letter-spacing: 0;
   }
 
   /* =========================================================
