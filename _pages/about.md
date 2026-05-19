@@ -87,7 +87,7 @@ redirect_from:
 
   .page__content {
     font-size: var(--homepage-content-size);
-    line-height: 1.75;
+    line-height: 1.55;
   }
 
   /* 标题和顶部导航也使用与正文一致的系统字体风格。 */
@@ -123,7 +123,7 @@ redirect_from:
   .education-title,
   .useful-links li {
     font-size: var(--homepage-body-size);
-    line-height: 1.75;
+    line-height: 1.55;
   }
 
   .about-text p {
@@ -494,7 +494,7 @@ redirect_from:
     .education-title,
     .useful-links li {
       font-size: var(--homepage-mobile-body-size);
-      line-height: 1.7;
+      line-height: 1.55;
     }
 
     .about-text p,
