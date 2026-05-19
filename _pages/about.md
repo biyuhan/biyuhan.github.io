@@ -250,7 +250,7 @@ redirect_from:
   .profile_box .author__urls li,
   .profile_box .author__urls a {
     font-size: 1em;
-    line-height: 1.55;
+    line-height: 1.45;
   }
 
   /* 恢复图标字体，避免 DBLP / ORCID / Google Scholar 等图标变成方框。 */
