@@ -683,7 +683,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
   <div class="publication-card">
     <div class="publication-image">
-      <img src="{{ '/images/publications/krib.png' | relative_url }}" alt="Knowledge-refined information bottleneck for contrastive recommendation" loading="lazy">
+      <img src="{{ '/images/publications/kibcr.jpg' | relative_url }}" alt="Knowledge-refined information bottleneck for contrastive recommendation" loading="lazy">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -702,7 +702,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
   <div class="publication-card">
     <div class="publication-image">
-      <img src="{{ '/images/publications/dcib.png' | relative_url }}" alt="DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation" loading="lazy">
+      <img src="{{ '/images/publications/dcib.jpg' | relative_url }}" alt="DCIB: Dual contrastive information bottleneck for knowledge-aware recommendation" loading="lazy">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -721,7 +721,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
   <div class="publication-card">
     <div class="publication-image">
-      <img src="{{ '/images/publications/dcib.png' | relative_url }}" alt="Multimodal nonredundant clustering via sufficiency complementary mining" loading="lazy">
+      <img src="{{ '/images/publications/mnrc.jpg' | relative_url }}" alt="Multimodal nonredundant clustering via sufficiency complementary mining" loading="lazy">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -740,7 +740,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
   <div class="publication-card">
     <div class="publication-image">
-      <img src="{{ '/images/publications/rgbt-crowd.png' | relative_url }}" alt="Consistency-constrained RGB-T crowd counting via mutual information maximization" loading="lazy">
+      <img src="{{ '/images/publications/c4mim.jpg' | relative_url }}" alt="Consistency-constrained RGB-T crowd counting via mutual information maximization" loading="lazy">
     </div>
     <div class="publication-content">
       <div class="publication-title">
@@ -759,7 +759,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 
   <div class="publication-card">
     <div class="publication-image">
-      <img src="{{ '/images/publications/cross-hierarchy.png' | relative_url }}" alt="Learning a deep network with cross-hierarchy aggregation for crowd counting" loading="lazy">
+      <img src="{{ '/images/publications/chanet.jpg' | relative_url }}" alt="Learning a deep network with cross-hierarchy aggregation for crowd counting" loading="lazy">
     </div>
     <div class="publication-content">
       <div class="publication-title">
