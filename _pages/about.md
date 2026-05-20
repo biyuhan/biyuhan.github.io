@@ -806,11 +806,11 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 # 💰 Funding
 
 <ul class="content-list">
-  <li>Research on the model and propagation mechanism of graph propagation information bottleneck method (62176239), NSFC 2022-2025, participate.</li>
+  <li>Research on the model and propagation mechanism of graph propagation information bottleneck method (62176239) <br>NSFC 2022-2025, participate.</li>
 </ul>
 
 <ul class="content-list">
-  <li>Research on propagation information bottleneck method (61772475), NSFC 2018-2021, participate.</li>
+  <li>Research on propagation information bottleneck method (61772475) <br>NSFC 2018-2021, participate.</li>
 </ul>
 
 
