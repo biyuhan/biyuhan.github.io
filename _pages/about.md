@@ -637,6 +637,27 @@ redirect_from:
       box-shadow: none;
     }
   }
+
+  /* =========================================================
+   Sidebar link clickable area
+   只让左侧学术链接的图标和文字可点击，不让右侧空白区域可点击
+   ========================================================= */
+
+.profile_box .author__urls li {
+  display: block;
+}
+
+.profile_box .author__urls a {
+  display: inline-flex !important;
+  align-items: center;
+  width: auto !important;
+  max-width: max-content;
+  padding-right: 0 !important;
+}
+
+.profile_box .author__urls a i {
+  margin-right: 0.45em;
+}
 </style>
 
 <span class="anchor" id="about-me"></span>
