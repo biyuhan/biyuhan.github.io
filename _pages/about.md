@@ -639,6 +639,7 @@ redirect_from:
   }
 
   /* =========================================================
+   Finall added
    Sidebar link clickable area
    只让左侧学术链接的图标和文字可点击，不让右侧空白区域可点击
    ========================================================= */
@@ -805,8 +806,13 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 # 💰 Funding
 
 <ul class="content-list">
-  <li>To be updated.</li>
+  <li>Research on the model and propagation mechanism of graph propagation information bottleneck method (62176239), NSFC 2022-2025, participate.</li>
 </ul>
+
+<ul class="content-list">
+  <li>Research on propagation information bottleneck method (61772475), NSFC 2018-2021, participate.</li>
+</ul>
+
 
 <hr>
 <!--
