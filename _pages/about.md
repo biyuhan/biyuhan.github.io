@@ -674,7 +674,7 @@ I am expected to recruit master’s students in the next admission cycle. Prospe
 
 I also welcome academic discussions and potential collaborations with researchers working in related fields.
 
-Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">here</a>. Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">Email</a>.<!-- or <a href="{{ '/images/wechat.png' | relative_url }}">WeChat</a>.-->
+Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">here</a>. Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">email</a>.<!-- or <a href="{{ '/images/wechat.png' | relative_url }}">WeChat</a>.-->
 
 </div>
 
