@@ -18,9 +18,7 @@ I am currently a faculty member in the School of Computer Science and Artificial
 
 My research interests lie broadly in data mining and machine learning, with a particular focus on recommender systems, multimodal learning, information bottleneck, and graph representation learning. My research aims to develop effective, robust, and interpretable learning methods for recommendation and graph-based data analysis. I have published and co-authored several papers in peer-reviewed journals and conferences in related areas.
 
-I am expected to recruit master’s students in the next admission cycle. Prospective students who are interested in recommender systems, multimodal learning, graph learning, information bottleneck, and related topics are warmly encouraged to contact me.
-
-I also welcome academic discussions and potential collaborations with researchers working in related fields.
+I am expected to recruit master’s students in the next admission cycle. Prospective students who are interested in recommender systems, multimodal learning, graph learning, information bottleneck, and related topics are warmly encouraged to contact me. I also welcome academic discussions and potential collaborations with researchers working in related fields.
 
 Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">here</a>. Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">email</a>.<!-- or <a href="{{ '/images/wechat.png' | relative_url }}">WeChat</a>.-->
 
