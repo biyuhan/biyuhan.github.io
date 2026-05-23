@@ -120,4 +120,80 @@
       display: none;
     }
   }
+
+  /* =========================================================
+   Strong language switch spacing
+   明显拉开 中文 / English 与后续导航项的距离
+   ========================================================= */
+
+/* Homepage / 首页 与 中文 / English 靠近 */
+.masthead .visible-links > li.masthead__menu-home-item {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.masthead .visible-links > li.masthead__menu-home-item a {
+  padding-right: 6px !important;
+}
+
+/* 中文 / English 做成语言按钮 */
+.masthead .visible-links > li.masthead__menu-lang {
+  position: relative;
+  margin-left: 0 !important;
+  margin-right: 54px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.masthead .visible-links > li.masthead__menu-lang a {
+  display: inline-block !important;
+  margin-left: 0 !important;
+  padding: 2px 9px !important;
+  color: #0066cc !important;
+  font-weight: 700 !important;
+  line-height: 1.4;
+  background: rgba(0, 102, 204, 0.07);
+  border-radius: 6px;
+}
+
+/* 在 中文 / English 后面加一条浅分隔线，视觉上更明显 */
+.masthead .visible-links > li.masthead__menu-lang::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -28px;
+  width: 1px;
+  height: 18px;
+  background: #dcdcdc;
+  transform: translateY(-50%);
+}
+
+/* 防止 About Me / 个人简介 被主题样式拉回去 */
+.masthead .visible-links > li.masthead__menu-lang + li {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* 桌面端进一步加大语言切换和后续导航的间距 */
+@media screen and (min-width: 1025px) {
+  .masthead .visible-links > li.masthead__menu-lang {
+    margin-right: 68px !important;
+  }
+
+  .masthead .visible-links > li.masthead__menu-lang::after {
+    right: -34px;
+  }
+}
+
+/* 小屏端不要太宽，避免挤压导航 */
+@media screen and (max-width: 768px) {
+  .masthead .visible-links > li.masthead__menu-lang {
+    margin-right: 28px !important;
+  }
+
+  .masthead .visible-links > li.masthead__menu-lang::after {
+    right: -15px;
+    height: 16px;
+  }
+}
 </style>
