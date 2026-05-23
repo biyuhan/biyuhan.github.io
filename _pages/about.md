@@ -43,7 +43,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm" t
 <hr>
 
 <span class="anchor" id="publications"></span>
-# 📝 Selected Publications (<a href="https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en" target="_blank" rel="noopener"><strong>[Full List]</strong></a>)
+# 📝 Selected Publications (<a href="https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en" target="_blank" rel="noopener">Full List</a>)
 
 <p class="publication-note"><strong># indicates the authors with equal contributions, and * indicates the corresponding authors.</strong></p>
 
