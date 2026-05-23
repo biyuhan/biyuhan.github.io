@@ -14,7 +14,7 @@ redirect_from:
 
 <div class="about-text" markdown="1">
 
-我目前任职于郑州大学计算机与人工智能学院。本人于 2025 年 6 月在郑州大学获得软件工程专业博士学位，导师为 <a href="http://www5.zzu.edu.cn/mlis/"><strong>叶阳东教授</strong></a>。我的研究兴趣主要包括数据挖掘与机器学习，重点关注推荐系统、多模态学习、信息瓶颈和图表示学习等方向。我的研究目标是面向推荐和图数据分析任务，探索有效、鲁棒且具有一定可解释性的学习方法。
+我目前任职于郑州大学计算机与人工智能学院。本人于 2025 年 6 月在郑州大学获得软件工程专业博士学位，导师为 <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>叶阳东教授</strong></a>。我的研究兴趣主要包括数据挖掘与机器学习，重点关注推荐系统、多模态学习、信息瓶颈和图表示学习等方向。我的研究目标是面向推荐和图数据分析任务，探索有效、鲁棒且具有一定可解释性的学习方法。
 
 预计下一招生年度可招收硕士研究生。欢迎对推荐系统、多模态学习、图学习、信息瓶颈及相关机器学习方向感兴趣的同学与我联系。欢迎相关领域的同行进行学术交流与合作。
 
@@ -213,7 +213,7 @@ redirect_from:
       <div class="education-title">
         <strong>2021.09 - 2025.06:</strong><br>
         郑州大学, 软件工程专业，博士<br>
-        导师为 <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>叶阳东教授</strong></a>。
+        导师： <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>叶阳东教授</strong></a>
       </div>
     </div>
 
@@ -227,7 +227,7 @@ redirect_from:
       <div class="education-title">
         <strong>2018.09 - 2021.06:</strong><br>
         郑州大学, 计算机科学与技术专业，硕士<br>
-        导师为 <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>叶阳东教授</strong></a>。
+        导师： <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>叶阳东教授</strong></a>
       </div>
     </div>
 
