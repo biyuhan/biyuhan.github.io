@@ -25,7 +25,7 @@ redirect_from:
 <hr>
 
 <span class="anchor" id="publications"></span>
-# 📝 代表论文 ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
+# 📝 代表论文 ((<a href="https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en" target="_blank" rel="noopener"><strong>[谷歌学术]</strong></a>))
 
 <p class="publication-note"><strong># 表示同等贡献, * 表示通讯作者.</strong></p>
 
