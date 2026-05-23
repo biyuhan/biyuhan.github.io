@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+{% include homepage-style.html %}
 
 <span class="anchor" id="about-me"></span>
 # About Me
