@@ -26,10 +26,6 @@ redirect_from:
 
 <hr>
 
-</div>
-
-<hr>
-
 <span class="anchor" id="publications"></span>
 # 📝 代表论文 ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
 
