@@ -14,13 +14,13 @@ redirect_from:
 
 <div class="about-text" markdown="1">
 
-I am currently a faculty member in the School of Computer Science and Artificial Intelligence at Zhengzhou University. I received my Ph.D. degree in Software Engineering from Zhengzhou University in June 2025, under the supervision of <a href="http://www5.zzu.edu.cn/mlis/"><strong>Prof. Yangdong Ye</strong></a>.
+I am currently a faculty member in the School of Computer Science and Artificial Intelligence at Zhengzhou University. I received my Ph.D. degree in Software Engineering from Zhengzhou University in June 2025, under the supervision of <a href="http://www5.zzu.edu.cn/mlis/" target="_blank" rel="noopener"><strong>Prof. Yangdong Ye</strong></a>.
 
 My research interests lie broadly in data mining and machine learning, with a particular focus on recommender systems, multimodal learning, information bottleneck, and graph representation learning. My research aims to develop effective, robust, and interpretable learning methods for recommendation and graph-based data analysis. I have published and co-authored several papers in peer-reviewed journals and conferences in related areas.
 
 I am expected to recruit master’s students in the next admission cycle. Prospective students who are interested in recommender systems, multimodal learning, graph learning, information bottleneck, and related topics are warmly encouraged to contact me. I also welcome academic discussions and potential collaborations with researchers working in related fields.
 
-Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">here</a>. Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">email</a>.<!-- or <a href="{{ '/images/wechat.png' | relative_url }}">WeChat</a>.-->
+Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm" target="_blank" rel="noopener">here</a>. Feel free to contact me via <a href="mailto:qiangguo@zzu.edu.cn">email</a>.<!-- or <a href="{{ '/images/wechat.png' | relative_url }}">WeChat</a>.-->
 
 </div>
 
@@ -43,7 +43,7 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 <hr>
 
 <span class="anchor" id="publications"></span>
-# 📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en))
+# 📝 Selected Publications (<a href="[http://www5.zzu.edu.cn/mlis/](https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en)" target="_blank" rel="noopener"><strong>[Full List]</strong></a>)
 
 <p class="publication-note"><strong># indicates the authors with equal contributions, and * indicates the corresponding authors.</strong></p>
 
@@ -274,11 +274,11 @@ Official homepage is <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">h
 # 🔗 Useful Links
 
 <ul class="useful-links">
-  <li><strong>CCF List:</strong> <a href="https://ccf.atom.im/">ccf.atom.im</a></li>
-  <li><strong>CCF Deadlines:</strong> <a href="https://ccfddl.com/">CCF Deadlines</a></li>
-  <li><strong>AI Deadlines:</strong> <a href="https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI">AI Conference Deadlines</a></li>
-  <li><strong>CSRankings:</strong> <a href="https://csrankings.org/">Computer Science Rankings</a></li>
-  <li><strong>Core Ranking:</strong> <a href="https://portal.core.edu.au/conf-ranks/">Conference Portal</a></li>
+  <li><strong>CCF List:</strong> <a href="https://ccf.atom.im/" target="_blank" rel="noopener">ccf.atom.im</a></li>
+  <li><strong>CCF Deadlines:</strong> <a href="https://ccfddl.com/" target="_blank" rel="noopener">CCF Deadlines</a></li>
+  <li><strong>AI Deadlines:</strong> <a href="https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI" target="_blank" rel="noopener">AI Conference Deadlines</a></li>
+  <li><strong>CSRankings:</strong> <a href="https://csrankings.org/" target="_blank" rel="noopener">Computer Science Rankings</a></li>
+  <li><strong>Core Ranking:</strong> <a href="https://portal.core.edu.au/conf-ranks/" target="_blank" rel="noopener">Conference Portal</a></li>
 </ul>
 
 <hr>
