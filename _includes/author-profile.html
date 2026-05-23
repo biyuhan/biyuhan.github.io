@@ -27,7 +27,13 @@
   {% endif %}
 
   {% if author.bio %}
-    <p class="author__bio">{{ author.bio }}</p>
+    <p class="author__bio">
+    {% if page.lang == "zh" %}
+      郑州大学
+    {% else %}
+      {{ author.bio }}
+    {% endif %}
+  </p>
   {% endif %}
   </div>
 
