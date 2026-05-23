@@ -18,7 +18,7 @@ redirect_from:
 
 预计下一招生年度可招收硕士研究生。欢迎对推荐系统、多模态学习、图学习、信息瓶颈及相关机器学习方向感兴趣的同学与我联系。欢迎相关领域的同行进行学术交流与合作。
 
-郑州大学官方主页见 <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm" target="_blank" rel="noopener">这里</a>。欢迎通过 <a href="mailto:qiangguo@zzu.edu.cn">邮箱</a> 与我联系。
+学院官网个人主页见 <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm" target="_blank" rel="noopener">这里</a>。欢迎通过 <a href="mailto:qiangguo@zzu.edu.cn">邮箱</a> 与我联系。
 
 </div>
 
