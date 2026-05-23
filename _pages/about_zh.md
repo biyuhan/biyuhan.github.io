@@ -18,14 +18,14 @@ redirect_from:
 
 预计下一招生年度可招收硕士研究生。欢迎对推荐系统、多模态学习、图学习、信息瓶颈及相关机器学习方向感兴趣的同学与我联系。欢迎相关领域的同行进行学术交流与合作。
 
-郑州大学官方主页见 <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm">这里</a>。欢迎通过 <a href="mailto:qiangguo@zzu.edu.cn">邮箱</a> 与我联系。
+郑州大学官方主页见 <a href="https://www7.zzu.edu.cn/csai/info/1233/3668.htm" target="_blank" rel="noopener">这里</a>。欢迎通过 <a href="mailto:qiangguo@zzu.edu.cn">邮箱</a> 与我联系。
 
 </div>
 
 <hr>
 
 <span class="anchor" id="publications"></span>
-# 📝 代表论文 ((<a href="https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en" target="_blank" rel="noopener"><strong>[谷歌学术]</strong></a>))
+# 📝 代表论文 (<a href="https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=zh" target="_blank" rel="noopener">谷歌学术</a>)
 
 <p class="publication-note"><strong># 表示同等贡献, * 表示通讯作者.</strong></p>
 
@@ -257,11 +257,11 @@ redirect_from:
 # 🔗 常用链接
 
 <ul class="useful-links">
-  <li><strong>CCF List:</strong> <a href="https://ccf.atom.im/">ccf.atom.im</a></li>
-  <li><strong>CCF Deadlines:</strong> <a href="https://ccfddl.com/">CCF Deadlines</a></li>
-  <li><strong>AI Deadlines:</strong> <a href="https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI">AI Conference Deadlines</a></li>
-  <li><strong>CSRankings:</strong> <a href="https://csrankings.org/">Computer Science Rankings</a></li>
-  <li><strong>Core Ranking:</strong> <a href="https://portal.core.edu.au/conf-ranks/">Conference Portal</a></li>
+  <li><strong>CCF List:</strong> <a href="https://ccf.atom.im/" target="_blank" rel="noopener">ccf.atom.im</a></li>
+  <li><strong>CCF Deadlines:</strong> <a href="https://ccfddl.com/" target="_blank" rel="noopener">CCF Deadlines</a></li>
+  <li><strong>AI Deadlines:</strong> <a href="https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI" target="_blank" rel="noopener">AI Conference Deadlines</a></li>
+  <li><strong>CSRankings:</strong> <a href="https://csrankings.org/" target="_blank" rel="noopener">Computer Science Rankings</a></li>
+  <li><strong>Core Ranking:</strong> <a href="https://portal.core.edu.au/conf-ranks/" target="_blank" rel="noopener">Conference Portal</a></li>
 </ul>
 
 <hr>
