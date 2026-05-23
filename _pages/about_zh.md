@@ -7,11 +7,7 @@ author_profile: true
 redirect_from:
   - /zh.html
 ---
-
-<span class="anchor" id="about-me"></span>
-# 个人简介
-
-<div class="about-text" markdown="1">
+{% include homepage-style.html %}
 
 <span class="anchor" id="about-me"></span>
 # 个人简介
