@@ -24,3 +24,56 @@
   });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async></script>
+
+
+<style>
+  /* =========================================================
+     Masthead language switch and school logo
+     顶部导航：中英文切换与学校 logo
+     ========================================================= */
+
+  .masthead .greedy-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .masthead .visible-links {
+    flex: 1 1 auto;
+  }
+
+  .masthead__menu-lang a {
+    color: #0066cc;
+    font-weight: 600;
+  }
+
+  .masthead__school-logo {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 18px;
+    text-decoration: none;
+  }
+
+  .masthead__school-logo img {
+    display: block;
+    width: auto;
+    height: 34px;
+    max-width: 230px;
+    object-fit: contain;
+  }
+
+  @media screen and (max-width: 1280px) {
+    .masthead__school-logo img {
+      height: 30px;
+      max-width: 190px;
+    }
+  }
+
+  /* 手机端导航已经较拥挤，建议隐藏学校长条 logo */
+  @media screen and (max-width: 768px) {
+    .masthead__school-logo {
+      display: none;
+    }
+  }
+</style>
