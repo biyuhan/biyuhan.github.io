@@ -20,18 +20,18 @@
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
             {% if is_zh %}
               <a href="{{ '/zh/' | relative_url }}">首页</a>
-              <li class="masthead__menu-item masthead__menu-lang">
-                <a href="{{ '/' | relative_url }}">[English]</a>
-              </li>
             {% else %}
               <a href="{{ '/' | relative_url }}">Homepage</a>
-              <li class="masthead__menu-item masthead__menu-lang">
-                <a href="{{ '/zh/' | relative_url }}">[中文]</a>
-              </li>
             {% endif %}
           </li>
 
-          
+          <li class="masthead__menu-item masthead__menu-lang">
+            {% if is_zh %}
+              <a href="{{ '/' | relative_url }}">[English]</a>
+            {% else %}
+              <a href="{{ '/zh/' | relative_url }}">[中文]</a>
+            {% endif %}
+          </li>
 
           {% for link in nav_links %}
             <li class="masthead__menu-item">
