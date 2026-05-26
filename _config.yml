@@ -30,7 +30,7 @@ author:
   avatar           : "images/bio.jpg"
   bio              : "Zhengzhou University"
   employer         :
-  location         : "No.100 Science Avenue, Zhengzhou"
+  location         : # "No.100 Science Avenue, Zhengzhou"
   email            : "qiangguo@zzu.edu.cn"
   email2           : "ieqguo@gmail.com"
   dblp             : "https://dblp.uni-trier.de/pid/72/1985-12.html"
