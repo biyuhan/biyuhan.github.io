@@ -21,6 +21,7 @@ My research interests lie broadly in **Information Processing & Decision Making*
 Feel free to contact me via:
 
 Phone: (86)185-1680-7490
+
 Email: yuhan_bi@163.com
 
 </div>
