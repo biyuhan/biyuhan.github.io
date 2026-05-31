@@ -14,7 +14,7 @@ redirect_from:
 
 <div class="about-text" markdown="1">
 
-I am currently a Ph.D. candidate in Accounting at Beijing Normal University (2021-2025). Prior to this, I received my Master's degree in International Economics from Beijing Foreign Studies University in 2021, and my Bachelor's degree in Polymer Materials and Engineering from Sichuan University in 2017.
+I received my Ph.D. in Accounting from Beijing Normal University in 2025. Prior to this, I obtained my Master's degree in International Economics from Beijing Foreign Studies University in 2021, and my Bachelor's degree in Polymer Materials and Engineering from Sichuan University in 2017.
 
 My research interests lie broadly in **Information Processing & Decision Making**, **Behavioral & Neuro-accounting**, and **Regulatory Accounting**. My research aims to explore the patterns and applications of accounting behavior through cross-disciplinary methodologies.
 
@@ -36,7 +36,7 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
       </div>
     </div>
     <div class="education-logo">
-      <img src="{{ '/images/bnu_logo.png' | relative_url }}" alt="Beijing Normal University" loading="lazy">
+      <img src="{{ '/images/bnu_logo.png' | relative_url }}" alt="Beijing Normal University" style="width: 100px; height: auto; max-width: none;" loading="lazy">
     </div>
   </div>
 
@@ -48,7 +48,7 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
       </div>
     </div>
     <div class="education-logo">
-      <img src="{{ '/images/bfsu_logo.png' | relative_url }}" alt="Beijing Foreign Studies University" loading="lazy">
+      <img src="{{ '/images/bfsu_logo.png' | relative_url }}" alt="Beijing Foreign Studies University" style="width: 100px; height: auto; max-width: none;" loading="lazy">
     </div>
   </div>
 
@@ -60,7 +60,7 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
       </div>
     </div>
     <div class="education-logo">
-      <img src="{{ '/images/scu_logo.png' | relative_url }}" alt="Sichuan University" loading="lazy">
+      <img src="{{ '/images/scu_logo.png' | relative_url }}" alt="Sichuan University" style="width: 100px; height: auto; max-width: none;" loading="lazy">
     </div>
   </div>
 
@@ -82,10 +82,10 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
         <strong>碳排放权交易制度的“微观双赢效应”及其机制分析</strong>
       </div>
       <div class="publication-authors">
-        with 崔学刚, 姜鑫, 等.
+        with 崔学刚, 姜鑫, 孙依愿.
       </div>
       <div class="publication-venue">
-        南开管理评论, 2024. (CSSCI)
+        南开管理评论, 2024.
       </div>
     </div>
   </div>
@@ -110,7 +110,7 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
         <strong>Dividend Payment Frequency and Firm Value: Evidence From China</strong>
       </div>
       <div class="publication-authors">
-        with C Ge, Q Cui, et al.
+        with C Ge, Q Cui, L Mu
       </div>
       <div class="publication-venue">
         Economics & Politics, 2026.
@@ -127,8 +127,7 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
         with 崔学刚, 牛清润.
       </div>
       <div class="publication-venue">
-        北京工商大学学报(社会科学版). (CSSCI)
-      </div>
+        北京工商大学学报(社会科学版). 
     </div>
   </div>
   
@@ -317,7 +316,6 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
 <ul class="content-list">
   <li><strong>2026.07:</strong> 杨纪琬奖学金优秀博士学位论文 (会计学界最高奖)</li>
   <li><strong>2023.04:</strong> 北京师范大学研究生学术论坛优秀奖</li>
-  <li><strong>2022.10:</strong> 北京师范大学学业一等奖学金</li>
   <li><strong>2020.10:</strong> 北京外国语大学三好学生</li>
 </ul>
 
@@ -328,7 +326,7 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
 
 <div class="info-card">
   <ul>
-    <li><strong>2025 - 至今:</strong> 主讲《企业内部控制》、《审计学》、《金钱、大脑与决策：揭秘行为与神经会计学》、《经济法》</li>
+    <li><strong>2025 - 至今:</strong> 主讲《企业内部控制》、《审计学》、《经济法》、《金钱、大脑与决策：揭秘行为与神经会计学》</li>
   </ul>
 </div>
 
