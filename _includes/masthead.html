@@ -25,29 +25,12 @@
             {% endif %}
           </li>
 
-          <li class="masthead__menu-item masthead__menu-lang">
-            {% if is_zh %}
-              <a href="{{ '/' | relative_url }}">[English]</a>
-            {% else %}
-              <a href="{{ '/zh/' | relative_url }}">[中文]</a>
-            {% endif %}
-          </li>
-
           {% for link in nav_links %}
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
-
-        <a class="masthead__school-logo"
-           href="https://www.zzu.edu.cn"
-           target="_blank"
-           rel="noopener"
-           aria-label="Zhengzhou University">
-          <img src="{{ '/images/zzulogo-green-zzu.png' | relative_url }}"
-               alt="Zhengzhou University">
-        </a>
 
         <ul class="hidden-links hidden"></ul>
       </nav>
