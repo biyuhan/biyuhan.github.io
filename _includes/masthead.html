@@ -8,15 +8,25 @@
   {% assign nav_links = site.data.navigation.main_zh %}
 {% endif %}
 
-<!-- 强制锁死横向排版，彻底封杀“三道杠”折叠功能 -->
 <style>
   nav.greedy-nav .visible-links {
     display: flex !important;
-    flex-wrap: wrap !important; /* 允许在屏幕极小时平滑换行，绝不折叠 */
-    align-items: center;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important; /* 核心魔法1：让整个导航栏在屏幕上完美居中 */
+    gap: 35px !important; /* 核心魔法2：强行规定每个词之间必须间隔 35px 的等宽距离 */
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
     visibility: visible !important;
     opacity: 1 !important;
   }
+  
+  /* 清除模板自带的捣乱边距 */
+  nav.greedy-nav .visible-links li.masthead__menu-item {
+    margin: 0 !important; 
+  }
+  
   nav.greedy-nav button {
     display: none !important;
   }
@@ -29,8 +39,6 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        
-        <!-- 注意：这里彻底删除了原有的 button 按钮代码，让脚本失效 -->
 
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
@@ -47,8 +55,7 @@
             </li>
           {% endfor %}
 
-          <!-- 将你的 Logo 作为最后一个导航项目，完美融入并靠右对齐 -->
-          <li class="masthead__menu-item" style="display: flex; align-items: center; margin-left: 15px;">
+          <li class="masthead__menu-item" style="display: flex; align-items: center;">
             <a class="masthead__marxists"
                href="https://www.marxists.org/chinese/pdf/history_of_international.htm"
                target="_blank"
