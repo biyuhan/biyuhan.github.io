@@ -25,8 +25,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site author
 # -----------------------------------------------------------------------------
 author:
-  name             : "Yuhan Bi"
-  name_zh          : "毕煜晗"
+  name             : "Yuhan Bi（毕煜晗）"
+  name_zh          :# "毕煜晗"
   avatar           : "images/bio.jpg"
   bio              : "Wenzhou Business College"
   employer         :
