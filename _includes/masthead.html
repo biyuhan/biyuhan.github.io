@@ -25,7 +25,13 @@
             {% endif %}
           </li>
 
-          <!-- 这里原本的语言切换 li 已经被删除 -->
+          <li class="masthead__menu-item masthead__menu-lang">
+            {% if is_zh %}
+              <a href="{{ '/' | relative_url }}">[English]</a>
+            {% else %}
+              <a href="{{ '/zh/' | relative_url }}">[中文]</a>
+            {% endif %}
+          </li>
 
           {% for link in nav_links %}
             <li class="masthead__menu-item">
@@ -33,8 +39,6 @@
             </li>
           {% endfor %}
         </ul>
-
-        <!-- 郑州大学的 logo a 标签已被删除 -->
 
         <ul class="hidden-links hidden"></ul>
       </nav>
