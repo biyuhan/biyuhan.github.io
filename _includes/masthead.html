@@ -25,6 +25,8 @@
             {% endif %}
           </li>
 
+          <!-- 这里原本的语言切换 li 已经被删除 -->
+
           {% for link in nav_links %}
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
@@ -32,14 +34,7 @@
           {% endfor %}
         </ul>
 
-        <a class="masthead__school-logo"
-           href="https://www.marxists.org/chinese/pdf/history_of_international.htm"
-           target="_blank"
-           rel="noopener"
-           aria-label="Marxist">
-          <img src="{{ '/images/Marxist.png' | relative_url }}"
-               alt="Marxist">
-        </a>
+        <!-- 郑州大学的 logo a 标签已被删除 -->
 
         <ul class="hidden-links hidden"></ul>
       </nav>
