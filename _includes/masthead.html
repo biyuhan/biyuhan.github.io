@@ -8,13 +8,29 @@
   {% assign nav_links = site.data.navigation.main_zh %}
 {% endif %}
 
+<!-- 强制锁死横向排版，彻底封杀“三道杠”折叠功能 -->
+<style>
+  nav.greedy-nav .visible-links {
+    display: flex !important;
+    flex-wrap: wrap !important; /* 允许在屏幕极小时平滑换行，绝不折叠 */
+    align-items: center;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  nav.greedy-nav button {
+    display: none !important;
+  }
+  nav.greedy-nav .hidden-links {
+    display: none !important;
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button type="button" aria-label="Toggle navigation menu">
-          <div class="navicon"></div>
-        </button>
+        
+        <!-- 注意：这里彻底删除了原有的 button 按钮代码，让脚本失效 -->
 
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
@@ -25,26 +41,26 @@
             {% endif %}
           </li>
 
-      
-
           {% for link in nav_links %}
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
+
+          <!-- 将你的 Logo 作为最后一个导航项目，完美融入并靠右对齐 -->
+          <li class="masthead__menu-item" style="display: flex; align-items: center; margin-left: 15px;">
+            <a class="masthead__marxists"
+               href="https://www.marxists.org/chinese/pdf/history_of_international.htm"
+               target="_blank"
+               rel="noopener"
+               aria-label="Marxists">
+              <img src="{{ '/images/Marxist.png' | relative_url }}"
+                   alt="Marxists"
+                   style="height: 35px; width: auto; max-width: none; display: block;">
+            </a>
+          </li>
         </ul>
 
-        <a class="masthead__marxists"
-           href="https://www.marxists.org/chinese/pdf/history_of_international.htm"
-           target="_blank"
-           rel="noopener"
-           aria-label="Marxists">
-          <img src="{{ '/images/Marxist.png' | relative_url }}"
-               alt="Marxists"
-               style="height: 35px; width: auto; max-width: none;">
-        </a>
-
-        <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
