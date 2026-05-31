@@ -25,13 +25,7 @@
             {% endif %}
           </li>
 
-          <li class="masthead__menu-item masthead__menu-lang">
-            {% if is_zh %}
-              <a href="{{ '/' | relative_url }}">[English]</a>
-            {% else %}
-              <a href="{{ '/zh/' | relative_url }}">[中文]</a>
-            {% endif %}
-          </li>
+      
 
           {% for link in nav_links %}
             <li class="masthead__menu-item">
@@ -44,9 +38,9 @@
            href="https://www.marxists.org/chinese/pdf/history_of_international.htm"
            target="_blank"
            rel="noopener"
-           aria-label="marxists">
-          <img src="{{ '/images/marxists.png' | relative_url }}"
-               alt="marxists">
+           aria-label="Marxists">
+          <img src="{{ '/images/Marxist.png' | relative_url }}"
+               alt="Marxists">
         </a>
 
         <ul class="hidden-links hidden"></ul>
