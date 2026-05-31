@@ -140,3 +140,5 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
 </div>
 
 <hr>
+
+<style> .masthead__school-logo { display: none !important; } </style>
