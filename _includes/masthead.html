@@ -1,10 +1,22 @@
+{% assign is_zh = false %}
+{% if page.lang == "zh" %}
+  {% assign is_zh = true %}
+{% endif %}
+
+{% assign nav_links = site.data.navigation.main %}
+{% if is_zh and site.data.navigation.main_zh %}
+  {% assign nav_links = site.data.navigation.main_zh %}
+{% endif %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button type="button" aria-label="Toggle navigation menu">
+          <div class="navicon"></div>
+        </button>
+
         <ul class="visible-links">
-          
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
             {% if is_zh %}
               <a href="{{ '/zh/' | relative_url }}">首页</a>
@@ -12,7 +24,7 @@
               <a href="{{ '/' | relative_url }}">Homepage</a>
             {% endif %}
           </li>
-          
+
           <li class="masthead__menu-item masthead__menu-lang">
             {% if is_zh %}
               <a href="{{ '/' | relative_url }}">[English]</a>
@@ -22,12 +34,21 @@
           </li>
 
           {% for link in nav_links %}
-          <li class="masthead__menu-item">
-            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
-          </li>
+            <li class="masthead__menu-item">
+              <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+            </li>
           {% endfor %}
-          
         </ul>
+
+        <a style="display: none;" class="masthead__school-logo"
+           href="https://www.zzu.edu.cn"
+           target="_blank"
+           rel="noopener"
+           aria-label="Zhengzhou University">
+          <img src="{{ '/images/zzulogo-green-zzu.png' | relative_url }}"
+               alt="Zhengzhou University">
+        </a>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
