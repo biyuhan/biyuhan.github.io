@@ -25,7 +25,13 @@
             {% endif %}
           </li>
 
-          <!-- 这里原本的语言切换 li 已经被删除 -->
+          <li class="masthead__menu-item masthead__menu-lang">
+            {% if is_zh %}
+              <a href="{{ '/' | relative_url }}">[English]</a>
+            {% else %}
+              <a href="{{ '/zh/' | relative_url }}">[中文]</a>
+            {% endif %}
+          </li>
 
           {% for link in nav_links %}
             <li class="masthead__menu-item">
@@ -34,7 +40,14 @@
           {% endfor %}
         </ul>
 
-        <!-- 郑州大学的 logo a 标签已被删除 -->
+        <a class="masthead__marxists"
+           href="https://www.marxists.org/chinese/pdf/history_of_international.htm"
+           target="_blank"
+           rel="noopener"
+           aria-label="marxists">
+          <img src="{{ '/images/marxists.png' | relative_url }}"
+               alt="marxists">
+        </a>
 
         <ul class="hidden-links hidden"></ul>
       </nav>
