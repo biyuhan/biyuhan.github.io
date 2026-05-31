@@ -1,9 +1,11 @@
 main:
   - title: "About Me"
     url: "/#about-me"
-
-  - title: "News"
-    url: "/#news"
+ - title: "Education"
+    url: "/#education"
+    
+  #- title: "News"
+   # url: "/#news"
 
   - title: "Publications"
     url: "/#publications"
@@ -14,25 +16,25 @@ main:
   - title: "Honors"
     url: "/#honors"
 
-  - title: "Services"
-    url: "/#services"
+  #- title: "Services"
+   # url: "/#services"
   
-  - title: "Courses"
+  - title: "Teaching"
     url: "/#courses"
     
-  - title: "Students"
-    url: "/#students"
+ # - title: "Students"
+  #  url: "/#students"
 
-  - title: "Education"
-    url: "/#education"
-
-  - title: "Useful Links"
-    url: "/#useful-links"
+ # - title: "Useful Links"
+  #  url: "/#useful-links"
 
 main_zh:
   - title: "个人简介"
     url: "/zh/#about-me"
-
+    
+ - title: "教育经历"
+    url: "/zh/#education"
+    
   - title: "发表论文"
     url: "/zh/#publications"
 
@@ -42,17 +44,16 @@ main_zh:
   - title: "荣誉奖励"
     url: "/zh/#honors"
 
-  - title: "学术服务"
-    url: "/zh/#services"
+ # - title: "学术服务"
+  #  url: "/zh/#services"
 
   - title: "课程教学"
     url: "/zh/#courses"
 
-  - title: "学生招生"
-    url: "/zh/#students"
+ # - title: "学生招生"
+  #  url: "/zh/#students"
 
-  - title: "教育经历"
-    url: "/zh/#education"
+ 
 
-  - title: "常用链接"
-    url: "/zh/#useful-links"
+  #- title: "常用链接"
+   # url: "/zh/#useful-links"
