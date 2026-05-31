@@ -8,6 +8,21 @@
   {% assign nav_links = site.data.navigation.main_zh %}
 {% endif %}
 
+<!-- 护盾开启：强制锁死导航栏显示，禁用任何脚本的折叠行为 -->
+<style>
+  nav.greedy-nav .visible-links {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  nav.greedy-nav button {
+    display: none !important;
+  }
+  nav.greedy-nav .hidden-links {
+    display: none !important;
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -39,7 +54,8 @@
             </li>
           {% endfor %}
         </ul>
-
+        
+        <!-- 郑州大学Logo已经被彻底安全移除 -->
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
