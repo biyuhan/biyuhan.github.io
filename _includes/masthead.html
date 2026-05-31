@@ -1,30 +1,18 @@
-{% assign is_zh = false %}
-{% if page.lang == "zh" %}
-  {% assign is_zh = true %}
+<li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+{% if is_zh %}
+<a href="{{ '/zh/' | relative_url }}">首页</a>
+              <li class="masthead__menu-item masthead__menu-lang">
+                <a href="{{ '/' | relative_url }}">[English]</a>
+              </li>
+{% else %}
+<a href="{{ '/' | relative_url }}">Homepage</a>
+              <li class="masthead__menu-item masthead__menu-lang">
+                <a href="{{ '/zh/' | relative_url }}">[中文]</a>
+              </li>
 {% endif %}
+</li>
 
-{% assign nav_links = site.data.navigation.main %}
-{% if is_zh and site.data.navigation.main_zh %}
-  {% assign nav_links = site.data.navigation.main_zh %}
-{% endif %}
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button type="button" aria-label="Toggle navigation menu">
-          <div class="navicon"></div>
-        </button>
-
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            {% if is_zh %}
-              <a href="{{ '/zh/' | relative_url }}">首页</a>
-            {% else %}
-              <a href="{{ '/' | relative_url }}">Homepage</a>
-            {% endif %}
-          </li>
-
+          
           <li class="masthead__menu-item masthead__menu-lang">
             {% if is_zh %}
               <a href="{{ '/' | relative_url }}">[English]</a>
@@ -33,17 +21,15 @@
             {% endif %}
           </li>
 
-          {% for link in nav_links %}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
+{% for link in nav_links %}
+<li class="masthead__menu-item">
+<a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+</li>
+{% endfor %}
+</ul>
 
-       
-
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
+<ul class="hidden-links hidden"></ul>
+</nav>
+</div>
+</div>
 </div>
