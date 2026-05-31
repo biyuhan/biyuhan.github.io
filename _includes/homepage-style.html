@@ -652,4 +652,19 @@
 .profile_box .author__urls a i {
   margin-right: 0.45em;
 }
+  /* =========================================================
+   让侧边栏的邮箱、学校（以及所有链接）完美居中对齐
+   ========================================================= */
+.profile_box .author__urls,
+.profile_box .author__urls li,
+.profile_box .author__bio,
+.profile_box .author__email {
+  text-align: center !important;
+}
+
+/* 针对你之前设置的 flex 布局，强制在弹性盒子下也居中 */
+.profile_box .author__urls a {
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
 </style>
