@@ -35,6 +35,9 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
         Beijing Normal University, Ph.D. in Accounting
       </div>
     </div>
+    <div class="education-logo">
+      <img src="{{ '/images/bnu_logo.png' | relative_url }}" alt="Beijing Normal University" loading="lazy">
+    </div>
   </div>
 
   <div class="education-card">
@@ -44,6 +47,9 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
         Beijing Foreign Studies University, M.A. in International Economics
       </div>
     </div>
+    <div class="education-logo">
+      <img src="{{ '/images/bfsu_logo.png' | relative_url }}" alt="Beijing Foreign Studies University" loading="lazy">
+    </div>
   </div>
 
   <div class="education-card">
@@ -52,6 +58,9 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
         <strong>2013.09 - 2017.07:</strong><br>
         Sichuan University, B.S. in Polymer Materials and Engineering
       </div>
+    </div>
+    <div class="education-logo">
+      <img src="{{ '/images/scu_logo.png' | relative_url }}" alt="Sichuan University" loading="lazy">
     </div>
   </div>
 
@@ -241,4 +250,86 @@ Feel free to contact me via <a href="mailto:yuhan_bi@163.com">email</a>.
   </div>
 
   <div class="publication-card">
-    <div class="publication-content" style="width: 1
+    <div class="publication-content" style="width: 100%;">
+      <div class="publication-title">
+        <strong>规制会计理论构建与实践创新——兼评IASB&lt;管制资产与管制负债（征求意见稿）&gt;</strong>
+      </div>
+      <div class="publication-authors">
+        with 崔学刚, 杜怡萱.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+### Textbooks
+
+<div class="publication-list">
+
+  <div class="publication-card">
+    <div class="publication-content" style="width: 100%;">
+      <div class="publication-title">
+        <strong>《国际财务管理》</strong>
+      </div>
+      <div class="publication-authors">
+        with 崔学刚, 葛传路.
+      </div>
+      <div class="publication-venue">
+        北京大学出版社, 2026.
+      </div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-content" style="width: 100%;">
+      <div class="publication-title">
+        <strong>《财务报表分析》</strong>
+      </div>
+      <div class="publication-authors">
+        with 岳虹.
+      </div>
+      <div class="publication-venue">
+        中国人民大学出版社, 2026.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<hr>
+
+<span class="anchor" id="funding"></span>
+# 💰 Funding
+
+<ul class="content-list">
+  <li><strong>浙江省教育厅一般科研项目</strong>：数智时代可视化信息披露对资本市场效率影响研究，<strong>主持</strong></li>
+  <li><strong>国家社会科学基金重点项目</strong>：新时代中国特色管制会计理论与制度体系研究，参与</li>
+  <li><strong>国家自然科学基金面上项目</strong>：中国多梯队审计市场竞争格局及其经济后果研究——基于不同会计师事务所竞争策略的比较分析，参与</li>
+  <li><strong>中国卫生经济学会第二十五批重点招标课题</strong>：公立医院数据资产管理体系及应用机制探索，参与</li>
+  <li><strong>国家发改委成本调查中心</strong>：自然垄断行业成本监审职工薪酬审核方法研究——以输配电成本监审为例，参与</li>
+</ul>
+
+<hr>
+
+<span class="anchor" id="honors"></span>
+# 🎖 Honors & Awards
+
+<ul class="content-list">
+  <li><strong>2026.07:</strong> 杨纪琬奖学金优秀博士学位论文 (会计学界最高奖)</li>
+  <li><strong>2023.04:</strong> 北京师范大学研究生学术论坛优秀奖</li>
+  <li><strong>2022.10:</strong> 北京师范大学学业一等奖学金</li>
+  <li><strong>2020.10:</strong> 北京外国语大学三好学生</li>
+</ul>
+
+<hr>
+
+<span class="anchor" id="courses"></span>
+# 👨‍🏫 Teaching Experience
+
+<div class="info-card">
+  <ul>
+    <li><strong>2025 - 至今:</strong> 主讲《企业内部控制》、《审计学》、《金钱、大脑与决策：揭秘行为与神经会计学》、《经济法》</li>
+  </ul>
+</div>
+
+<hr>
