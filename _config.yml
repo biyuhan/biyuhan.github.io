@@ -8,9 +8,9 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-title                    : "Qiang Guo's Homepage"
-description              : # "Qiang Guo (郭强), faculty member at the School of Computer Science and Artificial Intelligence, Zhengzhou University."
-repository               : "ieqiangguo/ieqiangguo.github.io"
+title                    : "Yuhan Bi's Homepage"
+description              : # "Yuhan Bi (毕煜晗), faculty member at the School of Management, Wenzhou Business College."
+repository               : "biyuhan/biyuhan.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics. Example: G-XXXXXXXXXX
@@ -25,19 +25,19 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site author
 # -----------------------------------------------------------------------------
 author:
-  name             : "Qiang Guo"
-  name_zh          : "郭  强"
+  name             : "Yuhan Bi"
+  name_zh          : "毕煜晗"
   avatar           : "images/bio.jpg"
-  bio              : "Zhengzhou University"
+  bio              : "Wenzhou Business College"
   employer         :
-  location         : # "No.100 Science Avenue, Zhengzhou"
-  email            : "qiangguo@zzu.edu.cn"
-  email2           : "ieqguo@gmail.com"
-  dblp             : "https://dblp.uni-trier.de/pid/72/1985-12.html"
-  orcid            : "https://orcid.org/0000-0003-0916-6667"
-  googlescholar    : "https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en"
-  researchgate     : "https://www.researchgate.net/profile/Qiang-Guo-36"
-  github           : "ieqiangguo"  # e.g., "github username"
+  location         : # "No.588 Meiquan Avenue, Wenzhou"
+  email            : "yuhan_bi@163.com"
+  email2           : "biyuhan@wzbc.edu.cn"
+  dblp             : #"https://dblp.uni-trier.de/pid/72/1985-12.html"
+  orcid            : #"https://orcid.org/0000-0003-0916-6667"
+  googlescholar    : #"https://scholar.google.com/citations?user=CpUZV-cAAAAJ&hl=en"
+  researchgate     : #"https://www.researchgate.net/profile/Qiang-Guo-36"
+  github           : #"ieqiangguo"  # e.g., "github username"
   pubmed           : 
   uri              :
   bitbucket        :
